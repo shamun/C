@@ -4,9 +4,9 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>gst</name>
-            <c-extensions/>
-            <cpp-extensions/>
-            <header-extensions/>
+            <c-extensions>c,m</c-extensions>
+            <cpp-extensions>cc,cpp</cpp-extensions>
+            <header-extensions>S,asm,h,hh,inc,l,y</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>

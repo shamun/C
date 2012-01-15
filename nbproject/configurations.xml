@@ -2,7 +2,3340 @@
 <configurationDescriptor version="80">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df name="gst" root=".">
-      <df name=".git">
+      <df name="gst-ffmpeg">
+        <df name="autom4te.cache">
+        </df>
+        <df name="common">
+          <df name="coverage">
+          </df>
+          <df name="hooks">
+          </df>
+          <df name="m4">
+          </df>
+        </df>
+        <df name="docs">
+          <df name="plugins">
+            <df name="inspect">
+            </df>
+          </df>
+        </df>
+        <df name="ext">
+          <df name="ffmpeg">
+            <in>gstffmpeg.h</in>
+            <in>gstffmpegaudioresample.c</in>
+            <in>gstffmpegcfg.c</in>
+            <in>gstffmpegcfg.h</in>
+            <in>gstffmpegcodecmap.h</in>
+            <in>gstffmpegenc.h</in>
+          </df>
+          <df name="libpostproc">
+          </df>
+          <df name="libswscale">
+          </df>
+        </df>
+        <df name="gst-libs">
+          <df name="ext">
+            <df name="libav">
+              <df name="doc">
+              </df>
+              <df name="ffpresets">
+              </df>
+              <df name="libavcodec">
+                <df name="alpha">
+                  <in>asm.h</in>
+                  <in>dsputil_alpha.c</in>
+                  <in>dsputil_alpha.h</in>
+                  <in>dsputil_alpha_asm.S</in>
+                  <in>motion_est_mvi_asm.S</in>
+                  <in>regdef.h</in>
+                  <in>simple_idct_alpha.c</in>
+                </df>
+                <df name="arm">
+                  <in>aac.h</in>
+                  <in>ac3dsp_arm.S</in>
+                  <in>ac3dsp_armv6.S</in>
+                  <in>ac3dsp_init_arm.c</in>
+                  <in>ac3dsp_neon.S</in>
+                  <in>asm-offsets.h</in>
+                  <in>asm.S</in>
+                  <in>dcadsp_init_arm.c</in>
+                  <in>dcadsp_neon.S</in>
+                  <in>dsputil_arm.S</in>
+                  <in>dsputil_arm.h</in>
+                  <in>dsputil_armv6.S</in>
+                  <in>dsputil_init_armv5te.c</in>
+                  <in>dsputil_neon.S</in>
+                  <in>dsputil_vfp.S</in>
+                  <in>fft_fixed_neon.S</in>
+                  <in>fft_neon.S</in>
+                  <in>fmtconvert_neon.S</in>
+                  <in>fmtconvert_vfp.S</in>
+                  <in>h264dsp_init_arm.c</in>
+                  <in>h264dsp_neon.S</in>
+                  <in>h264idct_neon.S</in>
+                  <in>h264pred_neon.S</in>
+                  <in>int_neon.S</in>
+                  <in>jrevdct_arm.S</in>
+                  <in>mathops.h</in>
+                  <in>mdct_fixed_neon.S</in>
+                  <in>mdct_neon.S</in>
+                  <in>mpegaudiodsp_fixed_armv6.S</in>
+                  <in>mpegvideo_armv5te_s.S</in>
+                  <in>mpegvideo_neon.S</in>
+                  <in>rdft_neon.S</in>
+                  <in>simple_idct_arm.S</in>
+                  <in>simple_idct_armv5te.S</in>
+                  <in>simple_idct_armv6.S</in>
+                  <in>simple_idct_neon.S</in>
+                  <in>synth_filter_neon.S</in>
+                  <in>vp3dsp_neon.S</in>
+                  <in>vp56_arith.h</in>
+                  <in>vp56dsp_neon.S</in>
+                  <in>vp8_armv6.S</in>
+                  <in>vp8dsp_init_arm.c</in>
+                  <in>vp8dsp_neon.S</in>
+                </df>
+                <df name="avr32">
+                  <in>mathops.h</in>
+                </df>
+                <df name="bfin">
+                  <in>config_bfin.h</in>
+                  <in>dsputil_bfin.h</in>
+                  <in>fdct_bfin.S</in>
+                  <in>idct_bfin.S</in>
+                  <in>mathops.h</in>
+                  <in>pixels_bfin.S</in>
+                  <in>vp3_bfin.c</in>
+                  <in>vp3_idct_bfin.S</in>
+                </df>
+                <df name="mips">
+                  <in>mathops.h</in>
+                </df>
+                <df name="mlib">
+                </df>
+                <df name="ppc">
+                  <in>asm.S</in>
+                  <in>dsputil_altivec.h</in>
+                  <in>dsputil_ppc.c</in>
+                  <in>fft_altivec_s.S</in>
+                  <in>fmtconvert_altivec.c</in>
+                  <in>mathops.h</in>
+                  <in>mpegaudiodec_altivec.c</in>
+                  <in>regs.h</in>
+                  <in>types_altivec.h</in>
+                  <in>util_altivec.h</in>
+                  <in>vp3dsp_altivec.c</in>
+                </df>
+                <df name="ps2">
+                  <in>dsputil_mmi.c</in>
+                  <in>idct_mmi.c</in>
+                  <in>mmi.h</in>
+                  <in>mpegvideo_mmi.c</in>
+                </df>
+                <df name="sh4">
+                  <in>dsputil_align.c</in>
+                  <in>dsputil_sh4.h</in>
+                  <in>qpel.c</in>
+                </df>
+                <df name="sparc">
+                </df>
+                <df name="x86">
+                  <in>ac3dsp.asm</in>
+                  <in>ac3dsp_mmx.c</in>
+                  <in>cabac.h</in>
+                  <in>cavsdsp_mmx.c</in>
+                  <in>deinterlace.asm</in>
+                  <in>dsputil_mmx.h</in>
+                  <in>dsputil_yasm.asm</in>
+                  <in>dsputilenc_yasm.asm</in>
+                  <in>fft_mmx.asm</in>
+                  <in>fmtconvert.asm</in>
+                  <in>h264_chromamc_10bit.asm</in>
+                  <in>h264_deblock_10bit.asm</in>
+                  <in>h264_idct.asm</in>
+                  <in>h264_idct_10bit.asm</in>
+                  <in>h264_intrapred.asm</in>
+                  <in>h264_intrapred_10bit.asm</in>
+                  <in>h264_qpel_10bit.asm</in>
+                  <in>h264_weight.asm</in>
+                  <in>h264_weight_10bit.asm</in>
+                  <in>mathops.h</in>
+                  <in>proresdsp.asm</in>
+                  <in>simple_idct_mmx.c</in>
+                  <in>vc1dsp_yasm.asm</in>
+                  <in>vp56_arith.h</in>
+                  <in>vp56dsp.asm</in>
+                  <in>vp8dsp.asm</in>
+                </df>
+                <in>8bps.c</in>
+                <in>8svx.c</in>
+                <in>a64enc.h</in>
+                <in>aac.h</in>
+                <in>aacps.h</in>
+                <in>aacps_tablegen.c</in>
+                <in>aacps_tablegen.h</in>
+                <in>aacpsy.h</in>
+                <in>aacsbr.c</in>
+                <in>aacsbr.h</in>
+                <in>aacsbrdata.h</in>
+                <in>aandcttab.h</in>
+                <in>ac3dsp.h</in>
+                <in>acelp_filters.h</in>
+                <in>acelp_pitch_delay.h</in>
+                <in>acelp_vectors.h</in>
+                <in>adpcm_data.c</in>
+                <in>adx.h</in>
+                <in>adxdec.c</in>
+                <in>apedec.c</in>
+                <in>ass.h</in>
+                <in>assdec.c</in>
+                <in>atrac.h</in>
+                <in>atrac1.c</in>
+                <in>atrac1data.h</in>
+                <in>avcodec.h</in>
+                <in>avfft.h</in>
+                <in>bethsoftvideo.h</in>
+                <in>bfi.c</in>
+                <in>bink.c</in>
+                <in>binkdata.h</in>
+                <in>binkdsp.h</in>
+                <in>bit_depth_template.c</in>
+                <in>bmp.c</in>
+                <in>bmp.h</in>
+                <in>bytestream.h</in>
+                <in>cabac.c</in>
+                <in>cabac.h</in>
+                <in>cavs.h</in>
+                <in>cavs_parser.c</in>
+                <in>cavsdsp.h</in>
+                <in>cdgraphics.c</in>
+                <in>celp_filters.h</in>
+                <in>celp_math.h</in>
+                <in>cga_data.c</in>
+                <in>cga_data.h</in>
+                <in>cljr.c</in>
+                <in>cscd.c</in>
+                <in>dca.h</in>
+                <in>dca_parser.c</in>
+                <in>dcadsp.h</in>
+                <in>dct.h</in>
+                <in>dct32.h</in>
+                <in>dnxhddata.c</in>
+                <in>dnxhddata.h</in>
+                <in>dsicinav.c</in>
+                <in>dsputil.h</in>
+                <in>dump_extradata_bsf.c</in>
+                <in>dvbsub.c</in>
+                <in>dvdsub_parser.c</in>
+                <in>dvdsubenc.c</in>
+                <in>dxa.c</in>
+                <in>elbg.c</in>
+                <in>elbg.h</in>
+                <in>escape124.c</in>
+                <in>faandct.h</in>
+                <in>faxcompr.c</in>
+                <in>faxcompr.h</in>
+                <in>fft-test.c</in>
+                <in>fft.h</in>
+                <in>flac.h</in>
+                <in>flac_parser.c</in>
+                <in>flashsv.c</in>
+                <in>flashsvenc.c</in>
+                <in>flicvideo.c</in>
+                <in>flv.h</in>
+                <in>flvenc.c</in>
+                <in>fmtconvert.h</in>
+                <in>g722.c</in>
+                <in>get_bits.h</in>
+                <in>gif.c</in>
+                <in>golomb.c</in>
+                <in>golomb.h</in>
+                <in>h261.c</in>
+                <in>h261.h</in>
+                <in>h261_parser.c</in>
+                <in>h263.h</in>
+                <in>h263_parser.c</in>
+                <in>h263_parser.h</in>
+                <in>h264.h</in>
+                <in>h264_loopfilter.c</in>
+                <in>h264_parser.c</in>
+                <in>h264_ps.c</in>
+                <in>h264data.h</in>
+                <in>h264dsp.h</in>
+                <in>h264pred.h</in>
+                <in>huffman.h</in>
+                <in>imgconvert.h</in>
+                <in>indeo2.c</in>
+                <in>indeo2data.h</in>
+                <in>indeo5.c</in>
+                <in>indeo5data.h</in>
+                <in>internal.h</in>
+                <in>intrax8.h</in>
+                <in>ituh263dec.c</in>
+                <in>ituh263enc.c</in>
+                <in>ivi_common.h</in>
+                <in>ivi_dsp.h</in>
+                <in>jfdctint.c</in>
+                <in>jfdctint_template.c</in>
+                <in>jpegls.h</in>
+                <in>jpeglsdec.c</in>
+                <in>jpeglsdec.h</in>
+                <in>jvdec.c</in>
+                <in>lagarithrac.c</in>
+                <in>lagarithrac.h</in>
+                <in>latm_parser.c</in>
+                <in>libdirac_libschro.h</in>
+                <in>libopenjpeg.c</in>
+                <in>libschroedinger.c</in>
+                <in>libschroedinger.h</in>
+                <in>libschroedingerdec.c</in>
+                <in>libspeexdec.c</in>
+                <in>libvo-aacenc.c</in>
+                <in>libvpxdec.c</in>
+                <in>loco.c</in>
+                <in>lsp.h</in>
+                <in>lzw.h</in>
+                <in>mathops.h</in>
+                <in>mjpeg.h</in>
+                <in>mjpegdec.h</in>
+                <in>mjpegenc.h</in>
+                <in>mlp.c</in>
+                <in>mlp.h</in>
+                <in>mlp_parser.c</in>
+                <in>mlp_parser.h</in>
+                <in>mmvideo.c</in>
+                <in>motion_est_template.c</in>
+                <in>mpc.c</in>
+                <in>mpc.h</in>
+                <in>mpc8.c</in>
+                <in>mpc8data.h</in>
+                <in>mpc8huff.h</in>
+                <in>mpcdata.h</in>
+                <in>mpeg12data.c</in>
+                <in>mpeg12data.h</in>
+                <in>mpeg4audio.h</in>
+                <in>mpeg4video.h</in>
+                <in>mpegaudio.h</in>
+                <in>mpegaudio_tablegen.h</in>
+                <in>mpegaudiodata.h</in>
+                <in>mpegaudiodec.c</in>
+                <in>mpegaudiodecheader.h</in>
+                <in>mpegaudiodectab.h</in>
+                <in>mpegaudiodsp.h</in>
+                <in>mpegaudiodsp_template.c</in>
+                <in>mpegvideo.h</in>
+                <in>mpegvideo_common.h</in>
+                <in>mpegvideo_enc.c</in>
+                <in>msmpeg4.h</in>
+                <in>msmpeg4data.h</in>
+                <in>msrledec.h</in>
+                <in>mxpegdec.c</in>
+                <in>noise_bsf.c</in>
+                <in>opt.h</in>
+                <in>options.c</in>
+                <in>parser.c</in>
+                <in>parser.h</in>
+                <in>pcm_tablegen.c</in>
+                <in>pcm_tablegen.h</in>
+                <in>png.h</in>
+                <in>pngdec.c</in>
+                <in>pnm.h</in>
+                <in>pnm_parser.c</in>
+                <in>proresdec.c</in>
+                <in>proresdsp.c</in>
+                <in>proresdsp.h</in>
+                <in>pthread.c</in>
+                <in>put_bits.h</in>
+                <in>qpeg.c</in>
+                <in>ratecontrol.c</in>
+                <in>ratecontrol.h</in>
+                <in>raw.h</in>
+                <in>rawdec.c</in>
+                <in>rdft.h</in>
+                <in>rectangle.h</in>
+                <in>rl.h</in>
+                <in>rle.c</in>
+                <in>rle.h</in>
+                <in>rv20enc.c</in>
+                <in>rv30dsp.c</in>
+                <in>rv34_parser.c</in>
+                <in>rv34dsp.c</in>
+                <in>rv34dsp.h</in>
+                <in>s3tc.c</in>
+                <in>s3tc.h</in>
+                <in>sbr.h</in>
+                <in>shorten.c</in>
+                <in>simple_idct.h</in>
+                <in>sinewin.h</in>
+                <in>sipr.c</in>
+                <in>sipr.h</in>
+                <in>sipr16k.c</in>
+                <in>sipr16kdata.h</in>
+                <in>siprdata.h</in>
+                <in>tableprint.h</in>
+                <in>thread.h</in>
+                <in>tiff.c</in>
+                <in>tiff.h</in>
+                <in>tiffenc.c</in>
+                <in>tmv.c</in>
+                <in>tta.c</in>
+                <in>twinvq.c</in>
+                <in>twinvq_data.h</in>
+                <in>unary.h</in>
+                <in>vaapi.h</in>
+                <in>vaapi_internal.h</in>
+                <in>vaapi_mpeg4.c</in>
+                <in>vc1.c</in>
+                <in>vc1.h</in>
+                <in>vc1acdata.h</in>
+                <in>vc1data.h</in>
+                <in>vc1dec.c</in>
+                <in>vc1dsp.h</in>
+                <in>vdpau_internal.h</in>
+                <in>version.h</in>
+                <in>vmnc.c</in>
+                <in>vorbis.c</in>
+                <in>vorbis.h</in>
+                <in>vorbis_data.c</in>
+                <in>vorbis_enc_data.h</in>
+                <in>vorbisenc.c</in>
+                <in>vp3dsp.c</in>
+                <in>vp56.h</in>
+                <in>vp56data.h</in>
+                <in>vp56dsp.h</in>
+                <in>vp6.c</in>
+                <in>vp6data.h</in>
+                <in>vp6dsp.c</in>
+                <in>vp8dsp.h</in>
+                <in>w32pthreads.h</in>
+                <in>wma.h</in>
+                <in>wmadec.c</in>
+                <in>wnv1.c</in>
+                <in>xiph.c</in>
+                <in>xiph.h</in>
+                <in>xl.c</in>
+                <in>xsubdec.c</in>
+                <in>xxan.c</in>
+                <in>zmbvenc.c</in>
+              </df>
+              <df name="libavdevice">
+                <in>alldevices.c</in>
+                <in>alsa-audio-common.c</in>
+                <in>alsa-audio.h</in>
+                <in>avdevice.h</in>
+                <in>dv1394.c</in>
+                <in>dv1394.h</in>
+                <in>v4l.c</in>
+              </df>
+              <df name="libavfilter">
+                <df name="x86">
+                </df>
+                <in>af_anull.c</in>
+                <in>asrc_anullsrc.c</in>
+                <in>avfilter.h</in>
+                <in>avfiltergraph.h</in>
+                <in>drawutils.h</in>
+                <in>internal.h</in>
+                <in>vf_fifo.c</in>
+                <in>vf_hflip.c</in>
+                <in>vf_libopencv.c</in>
+                <in>vf_settb.c</in>
+                <in>vf_showinfo.c</in>
+                <in>vf_slicify.c</in>
+                <in>vf_split.c</in>
+                <in>vf_yadif.c</in>
+                <in>vsrc_color.c</in>
+                <in>yadif.h</in>
+              </df>
+              <df name="libavformat">
+                <in>4xm.c</in>
+                <in>a64.c</in>
+                <in>aiff.h</in>
+                <in>aiffdec.c</in>
+                <in>aiffenc.c</in>
+                <in>allformats.c</in>
+                <in>apetag.h</in>
+                <in>applehttpproto.c</in>
+                <in>asf.h</in>
+                <in>asfcrypt.c</in>
+                <in>asfcrypt.h</in>
+                <in>asfdec.c</in>
+                <in>audiointerleave.h</in>
+                <in>avc.h</in>
+                <in>avformat.h</in>
+                <in>avio.h</in>
+                <in>avio_internal.h</in>
+                <in>aviobuf.c</in>
+                <in>avlanguage.h</in>
+                <in>avs.c</in>
+                <in>bethsoftvid.c</in>
+                <in>cdg.c</in>
+                <in>concat.c</in>
+                <in>crcenc.c</in>
+                <in>crypto.c</in>
+                <in>daud.c</in>
+                <in>dfa.c</in>
+                <in>diracdec.c</in>
+                <in>dv.h</in>
+                <in>ffm.h</in>
+                <in>ffmenc.c</in>
+                <in>flacenc.c</in>
+                <in>flacenc.h</in>
+                <in>flv.h</in>
+                <in>framecrcenc.c</in>
+                <in>gopher.c</in>
+                <in>h261dec.c</in>
+                <in>httpauth.c</in>
+                <in>httpauth.h</in>
+                <in>id3v1.h</in>
+                <in>id3v2.h</in>
+                <in>idcin.c</in>
+                <in>internal.h</in>
+                <in>isom.h</in>
+                <in>latmenc.c</in>
+                <in>libnut.c</in>
+                <in>librtmp.c</in>
+                <in>lxfdec.c</in>
+                <in>m4vdec.c</in>
+                <in>matroska.c</in>
+                <in>matroska.h</in>
+                <in>md5proto.c</in>
+                <in>metadata.h</in>
+                <in>mms.c</in>
+                <in>mms.h</in>
+                <in>mov.c</in>
+                <in>mp3dec.c</in>
+                <in>mpc8.c</in>
+                <in>mpeg.c</in>
+                <in>mpeg.h</in>
+                <in>mpegts.c</in>
+                <in>mpegts.h</in>
+                <in>mpegvideodec.c</in>
+                <in>msnwc_tcp.c</in>
+                <in>ncdec.c</in>
+                <in>network.h</in>
+                <in>nut.h</in>
+                <in>nutenc.c</in>
+                <in>nuv.c</in>
+                <in>oggdec.h</in>
+                <in>oggparseogm.c</in>
+                <in>oggparsetheora.c</in>
+                <in>os_support.h</in>
+                <in>pcm.h</in>
+                <in>psxstr.c</in>
+                <in>qcp.c</in>
+                <in>qtpalette.h</in>
+                <in>rawdec.c</in>
+                <in>rawdec.h</in>
+                <in>rawenc.c</in>
+                <in>rawenc.h</in>
+                <in>rdt.h</in>
+                <in>riff.h</in>
+                <in>rtmppkt.c</in>
+                <in>rtmppkt.h</in>
+                <in>rtp.c</in>
+                <in>rtp.h</in>
+                <in>rtpdec.c</in>
+                <in>rtpdec.h</in>
+                <in>rtpdec_formats.h</in>
+                <in>rtpdec_qcelp.c</in>
+                <in>rtpdec_vp8.c</in>
+                <in>rtpenc.h</in>
+                <in>rtpenc_aac.c</in>
+                <in>rtpenc_chain.c</in>
+                <in>rtpenc_chain.h</in>
+                <in>rtpproto.c</in>
+                <in>rtsp.h</in>
+                <in>rtspcodes.h</in>
+                <in>rtspdec.c</in>
+                <in>sdp.c</in>
+                <in>seek.c</in>
+                <in>seek.h</in>
+                <in>siff.c</in>
+                <in>srtdec.c</in>
+                <in>tmv.c</in>
+                <in>txd.c</in>
+                <in>url.h</in>
+                <in>utils.c</in>
+                <in>vc1testenc.c</in>
+                <in>version.h</in>
+                <in>voc.c</in>
+                <in>voc.h</in>
+                <in>vorbiscomment.h</in>
+                <in>wtv.c</in>
+                <in>wv.c</in>
+                <in>xwma.c</in>
+              </df>
+              <df name="libavutil">
+                <df name="arm">
+                  <in>bswap.h</in>
+                  <in>intmath.h</in>
+                  <in>intreadwrite.h</in>
+                  <in>timer.h</in>
+                </df>
+                <df name="avr32">
+                  <in>bswap.h</in>
+                  <in>intreadwrite.h</in>
+                </df>
+                <df name="bfin">
+                  <in>bswap.h</in>
+                  <in>timer.h</in>
+                </df>
+                <df name="mips">
+                  <in>intreadwrite.h</in>
+                </df>
+                <df name="ppc">
+                  <in>intreadwrite.h</in>
+                  <in>timer.h</in>
+                </df>
+                <df name="sh4">
+                  <in>bswap.h</in>
+                </df>
+                <df name="tomi">
+                  <in>intreadwrite.h</in>
+                </df>
+                <df name="x86">
+                  <in>bswap.h</in>
+                  <in>intmath.h</in>
+                  <in>intreadwrite.h</in>
+                  <in>x86inc.asm</in>
+                  <in>x86util.asm</in>
+                </df>
+                <in>adler32.h</in>
+                <in>aes.c</in>
+                <in>aes.h</in>
+                <in>attributes.h</in>
+                <in>audioconvert.c</in>
+                <in>audioconvert.h</in>
+                <in>avassert.h</in>
+                <in>avconfig.h</in>
+                <in>avstring.h</in>
+                <in>avutil.h</in>
+                <in>base64.h</in>
+                <in>bswap.h</in>
+                <in>colorspace.h</in>
+                <in>common.h</in>
+                <in>cpu.h</in>
+                <in>crc.h</in>
+                <in>crc_data.h</in>
+                <in>des.h</in>
+                <in>dict.h</in>
+                <in>error.h</in>
+                <in>eval.h</in>
+                <in>fifo.h</in>
+                <in>file.h</in>
+                <in>imgutils.h</in>
+                <in>intfloat_readwrite.h</in>
+                <in>intmath.h</in>
+                <in>intreadwrite.h</in>
+                <in>lfg.h</in>
+                <in>libm.h</in>
+                <in>log.h</in>
+                <in>lzo.h</in>
+                <in>mathematics.c</in>
+                <in>mathematics.h</in>
+                <in>md5.h</in>
+                <in>mem.h</in>
+                <in>opt.c</in>
+                <in>opt.h</in>
+                <in>parseutils.h</in>
+                <in>pixdesc.h</in>
+                <in>pixfmt.h</in>
+                <in>random_seed.h</in>
+                <in>rational.c</in>
+                <in>rational.h</in>
+                <in>rc4.c</in>
+                <in>rc4.h</in>
+                <in>samplefmt.h</in>
+                <in>tree.h</in>
+                <in>utils.c</in>
+                <in>x86_cpu.h</in>
+              </df>
+              <df name="libpostproc">
+              </df>
+              <df name="libswscale">
+                <df name="bfin">
+                  <in>internal_bfin.S</in>
+                </df>
+                <df name="mlib">
+                </df>
+                <df name="ppc">
+                </df>
+                <df name="sparc">
+                </df>
+                <df name="x86">
+                  <in>scale.asm</in>
+                </df>
+                <in>rgb2rgb.c</in>
+                <in>rgb2rgb.h</in>
+                <in>rgb2rgb_template.c</in>
+                <in>swscale-test.c</in>
+                <in>swscale.h</in>
+                <in>swscale_internal.h</in>
+                <in>utils.c</in>
+              </df>
+              <df name="tests">
+                <df name="fate">
+                </df>
+                <df name="ref">
+                  <df name="acodec">
+                  </df>
+                  <df name="fate">
+                  </df>
+                  <df name="lavf">
+                  </df>
+                  <df name="lavfi">
+                  </df>
+                  <df name="seek">
+                  </df>
+                  <df name="vsynth1">
+                  </df>
+                  <df name="vsynth2">
+                  </df>
+                </df>
+              </df>
+              <df name="tools">
+                <in>lavfi-showfiltfmts.c</in>
+                <in>probetest.c</in>
+              </df>
+              <in>config.h</in>
+            </df>
+          </df>
+        </df>
+        <df name="m4">
+        </df>
+        <df name="tests">
+          <df name="check">
+            <df name="elements">
+            </df>
+            <df name="generic">
+            </df>
+          </df>
+          <df name="files">
+          </df>
+        </df>
+        <df name="win32">
+          <df name="vs6">
+          </df>
+        </df>
+        <in>config.h</in>
+      </df>
+      <df name="gst-plugins-bad">
+        <df name="autom4te.cache">
+        </df>
+        <df name="common">
+          <df name="coverage">
+          </df>
+          <df name="hooks">
+          </df>
+          <df name="m4">
+          </df>
+        </df>
+        <df name="docs">
+          <df name="libs">
+            <df name="html">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+          <df name="plugins">
+            <df name="html">
+            </df>
+            <df name="inspect">
+            </df>
+            <df name="tmpl">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+          <df name="random">
+          </df>
+        </df>
+        <df name="ext">
+          <df name="apexsink">
+          </df>
+          <df name="arts">
+          </df>
+          <df name="artsd">
+          </df>
+          <df name="assrender">
+          </df>
+          <df name="audiofile">
+            <in>gstaf.c</in>
+            <in>gstafparse.c</in>
+            <in>gstafparse.h</in>
+            <in>gstafsink.h</in>
+            <in>gstafsrc.h</in>
+          </df>
+          <df name="audioresample">
+          </df>
+          <df name="bz2">
+          </df>
+          <df name="cdaudio">
+          </df>
+          <df name="celt">
+          </df>
+          <df name="cog">
+            <in>cog.h</in>
+            <in>cogframe.c</in>
+            <in>cogframe.h</in>
+            <in>cogutils.h</in>
+            <in>cogvirtframe.h</in>
+            <in>gstcogdownsample.c</in>
+            <in>gstcogorc-dist.h</in>
+            <in>gstcogorc.h</in>
+          </df>
+          <df name="curl">
+          </df>
+          <df name="dc1394">
+          </df>
+          <df name="dirac">
+            <in>gstdiracdec.cc</in>
+            <in>gstdiracdec.h</in>
+          </df>
+          <df name="directfb">
+          </df>
+          <df name="divx">
+            <in>gstdivxdec.c</in>
+            <in>gstdivxdec.h</in>
+          </df>
+          <df name="dts">
+          </df>
+          <df name="faac">
+          </df>
+          <df name="faad">
+          </df>
+          <df name="flite">
+          </df>
+          <df name="gme">
+          </df>
+          <df name="gsettings">
+            <in>gstgsettings.h</in>
+            <in>gstgsettingsvideosrc.c</in>
+            <in>gstgsettingsvideosrc.h</in>
+            <in>gstswitchsink.c</in>
+            <in>gstswitchsink.h</in>
+            <in>gstswitchsrc.h</in>
+          </df>
+          <df name="gsm">
+          </df>
+          <df name="hermes">
+          </df>
+          <df name="jp2k">
+          </df>
+          <df name="kate">
+            <in>gstkate.h</in>
+            <in>gstkatedec.h</in>
+            <in>gstkateenc.c</in>
+            <in>gstkateenc.h</in>
+            <in>gstkatespu.h</in>
+            <in>gstkatetiger.c</in>
+            <in>gstkatetiger.h</in>
+            <in>gstkateutil.h</in>
+          </df>
+          <df name="ladspa">
+          </df>
+          <df name="lcs">
+            <in>gstcolorspace.c</in>
+          </df>
+          <df name="libfame">
+          </df>
+          <df name="libmms">
+          </df>
+          <df name="lv2">
+            <in>gstlv2.c</in>
+            <in>gstlv2.h</in>
+          </df>
+          <df name="mimic">
+          </df>
+          <df name="modplug">
+          </df>
+          <df name="mpeg2enc">
+            <in>gstmpeg2enc.hh</in>
+            <in>gstmpeg2encoder.cc</in>
+            <in>gstmpeg2encoder.hh</in>
+            <in>gstmpeg2encoptions.hh</in>
+            <in>gstmpeg2encpicturereader.hh</in>
+            <in>gstmpeg2encstreamwriter.hh</in>
+          </df>
+          <df name="mplex">
+          </df>
+          <df name="musepack">
+            <in>gstmusepackdec.c</in>
+            <in>gstmusepackdec.h</in>
+            <in>gstmusepackreader.h</in>
+          </df>
+          <df name="musicbrainz">
+            <in>gsttrm.c</in>
+            <in>gsttrm.h</in>
+          </df>
+          <df name="mythtv">
+          </df>
+          <df name="nas">
+            <in>nassink.c</in>
+            <in>nassink.h</in>
+          </df>
+          <df name="neon">
+          </df>
+          <df name="ofa">
+          </df>
+          <df name="openal">
+            <in>gstopenalsrc.c</in>
+            <in>gstopenalsrc.h</in>
+          </df>
+          <df name="opencv">
+            <in>gstedgedetect.c</in>
+            <in>gstedgedetect.h</in>
+            <in>gstopencvutils.c</in>
+            <in>gstopencvutils.h</in>
+            <in>gstopencvvideofilter.c</in>
+            <in>gstopencvvideofilter.h</in>
+          </df>
+          <df name="opus">
+          </df>
+          <df name="resindvd">
+            <in>rsnwrappedbuffer.c</in>
+            <in>rsnwrappedbuffer.h</in>
+          </df>
+          <df name="rsvg">
+          </df>
+          <df name="rtmp">
+          </df>
+          <df name="schroedinger">
+          </df>
+          <df name="sdl">
+          </df>
+          <df name="shout">
+          </df>
+          <df name="snapshot">
+          </df>
+          <df name="sndfile">
+          </df>
+          <df name="soundtouch">
+            <in>gstbpmdetect.hh</in>
+            <in>gstpitch.hh</in>
+            <in>plugin.c</in>
+          </df>
+          <df name="spandsp">
+          </df>
+          <df name="spc">
+          </df>
+          <df name="swfdec">
+            <in>gstswfdec.c</in>
+            <in>gstswfdec.h</in>
+          </df>
+          <df name="teletextdec">
+          </df>
+          <df name="timidity">
+            <in>gsttimidity.c</in>
+            <in>gsttimidity.h</in>
+          </df>
+          <df name="voaacenc">
+          </df>
+          <df name="voamrwbenc">
+          </df>
+          <df name="vp8">
+            <in>gstvp8dec.h</in>
+            <in>gstvp8enc.h</in>
+            <in>plugin.c</in>
+          </df>
+          <df name="xvid">
+          </df>
+          <df name="zbar">
+            <in>gstzbar.c</in>
+            <in>gstzbar.h</in>
+          </df>
+        </df>
+        <df name="gst">
+          <df name="adpcmdec">
+          </df>
+          <df name="adpcmenc">
+          </df>
+          <df name="aiff">
+          </df>
+          <df name="asfmux">
+            <in>gstasfobjects.h</in>
+            <in>gstrtpasfpay.c</in>
+            <in>gstrtpasfpay.h</in>
+          </df>
+          <df name="audiobuffer">
+          </df>
+          <df name="audiovisualizers">
+          </df>
+          <df name="autoconvert">
+          </df>
+          <df name="bayer">
+            <in>gstbayerorc-dist.h</in>
+          </df>
+          <df name="camerabin">
+            <in>camerabindebug.h</in>
+            <in>camerabingeneral.h</in>
+            <in>camerabinpreview.c</in>
+            <in>camerabinpreview.h</in>
+          </df>
+          <df name="camerabin2">
+            <in>camerabingeneral.c</in>
+            <in>camerabingeneral.h</in>
+          </df>
+          <df name="cdxaparse">
+          </df>
+          <df name="chart">
+          </df>
+          <df name="coloreffects">
+            <in>gstchromahold.c</in>
+            <in>gstchromahold.h</in>
+            <in>gstcoloreffects.c</in>
+            <in>gstcoloreffects.h</in>
+            <in>gstplugin.c</in>
+          </df>
+          <df name="colorspace">
+            <in>gstcolorspaceorc-dist.h</in>
+          </df>
+          <df name="dataurisrc">
+            <in>gstdataurisrc.c</in>
+            <in>gstdataurisrc.h</in>
+          </df>
+          <df name="dccp">
+            <in>gstdccp.c</in>
+            <in>gstdccp.h</in>
+            <in>gstdccp_common.h</in>
+          </df>
+          <df name="debugutils">
+            <in>gstchecksumsink.c</in>
+            <in>gstchecksumsink.h</in>
+          </df>
+          <df name="dtmf">
+          </df>
+          <df name="dvbsuboverlay">
+            <in>dvb-sub.h</in>
+            <in>gstdvbsuboverlay.c</in>
+            <in>gstdvbsuboverlay.h</in>
+          </df>
+          <df name="dvdspu">
+            <in>gstdvdspu.h</in>
+            <in>gstspu-common.h</in>
+            <in>gstspu-pgs.h</in>
+            <in>gstspu-vobsub-render.c</in>
+            <in>gstspu-vobsub.h</in>
+          </df>
+          <df name="faceoverlay">
+          </df>
+          <df name="festival">
+          </df>
+          <df name="fieldanalysis">
+            <in>gstfieldanalysisorc-dist.h</in>
+          </df>
+          <df name="filter">
+          </df>
+          <df name="freeze">
+          </df>
+          <df name="frei0r">
+          </df>
+          <df name="games">
+          </df>
+          <df name="gaudieffects">
+            <in>gstplugin.c</in>
+            <in>gstplugin.h</in>
+          </df>
+          <df name="geometrictransform">
+            <in>geometricmath.c</in>
+            <in>geometricmath.h</in>
+            <in>gstcircle.c</in>
+            <in>gstcircle.h</in>
+            <in>gstcirclegeometrictransform.h</in>
+            <in>gstgeometrictransform.h</in>
+          </df>
+          <df name="h264parse">
+          </df>
+          <df name="hdvparse">
+          </df>
+          <df name="hls">
+          </df>
+          <df name="id3tag">
+          </df>
+          <df name="inter">
+            <in>gstintersurface.c</in>
+            <in>gstintersurface.h</in>
+            <in>gstintervideosink.c</in>
+            <in>gstintervideosink.h</in>
+          </df>
+          <df name="interlace">
+            <in>gstinterlace.c</in>
+          </df>
+          <df name="ivfparse">
+            <in>gstivfparse.c</in>
+            <in>gstivfparse.h</in>
+          </df>
+          <df name="jp2kdecimator">
+            <in>gstjp2kdecimator.h</in>
+            <in>jp2kcodestream.c</in>
+            <in>jp2kcodestream.h</in>
+          </df>
+          <df name="jpegformat">
+            <in>gstjifmux.c</in>
+            <in>gstjifmux.h</in>
+            <in>gstjpegformat.h</in>
+          </df>
+          <df name="legacyresample">
+            <in>buffer.h</in>
+            <in>debug.h</in>
+            <in>functable.h</in>
+            <in>gstlegacyresample.c</in>
+            <in>gstlegacyresample.h</in>
+            <in>resample.c</in>
+            <in>resample.h</in>
+          </df>
+          <df name="librfb">
+            <in>rfb.h</in>
+            <in>rfbbuffer.c</in>
+            <in>rfbbuffer.h</in>
+            <in>rfbcontext.h</in>
+            <in>rfbdecoder.c</in>
+            <in>rfbdecoder.h</in>
+            <in>rfbutil.h</in>
+            <in>vncauth.h</in>
+          </df>
+          <df name="liveadder">
+            <in>liveadder.c</in>
+            <in>liveadder.h</in>
+          </df>
+          <df name="mixmatrix">
+          </df>
+          <df name="mpeg1sys">
+          </df>
+          <df name="mpeg4videoparse">
+          </df>
+          <df name="mpegdemux">
+            <in>flutspatinfo.c</in>
+            <in>flutspatinfo.h</in>
+            <in>flutspmtinfo.c</in>
+            <in>flutspmtinfo.h</in>
+            <in>flutspmtstreaminfo.h</in>
+            <in>gstmpegdefs.h</in>
+            <in>gstmpegdesc.h</in>
+            <in>gstmpegtsdemux.c</in>
+            <in>gstmpegtsdemux.h</in>
+            <in>gstpesfilter.h</in>
+            <in>gstsectionfilter.h</in>
+          </df>
+          <df name="mpegpsmux">
+          </df>
+          <df name="mpegtsdemux">
+            <in>gstmpegdesc.h</in>
+            <in>mpegtsbase.h</in>
+            <in>mpegtspacketizer.h</in>
+            <in>mpegtsparse.c</in>
+            <in>mpegtsparse.h</in>
+            <in>payload_parsers.c</in>
+            <in>payload_parsers.h</in>
+          </df>
+          <df name="mpegtsmux">
+            <df name="tsmux">
+              <in>tsmux.h</in>
+              <in>tsmuxcommon.h</in>
+              <in>tsmuxstream.h</in>
+            </df>
+            <in>mpegtsmux.c</in>
+            <in>mpegtsmux.h</in>
+            <in>mpegtsmux_aac.h</in>
+            <in>mpegtsmux_h264.c</in>
+            <in>mpegtsmux_h264.h</in>
+          </df>
+          <df name="mpegvideoparse">
+            <in>mpegpacketiser.h</in>
+            <in>mpegvideoparse.c</in>
+            <in>mpegvideoparse.h</in>
+          </df>
+          <df name="mve">
+            <in>gstmve.c</in>
+            <in>gstmvedemux.h</in>
+            <in>gstmvemux.h</in>
+            <in>mveaudiodec.c</in>
+            <in>mveaudioenc.c</in>
+            <in>mvevideoenc16.c</in>
+          </df>
+          <df name="mxf">
+            <in>mxfalaw.c</in>
+            <in>mxfalaw.h</in>
+            <in>mxfessence.h</in>
+            <in>mxfjpeg2000.c</in>
+            <in>mxfjpeg2000.h</in>
+            <in>mxfmetadata.h</in>
+            <in>mxfmux.c</in>
+            <in>mxfmux.h</in>
+            <in>mxftypes.h</in>
+            <in>mxful.c</in>
+            <in>mxful.h</in>
+          </df>
+          <df name="nsf">
+            <in>fmopl.c</in>
+            <in>fmopl.h</in>
+            <in>log.h</in>
+            <in>nes_apu.h</in>
+            <in>types.h</in>
+            <in>vrcvisnd.c</in>
+            <in>vrcvisnd.h</in>
+          </df>
+          <df name="nuvdemux">
+          </df>
+          <df name="overlay">
+          </df>
+          <df name="passthrough">
+          </df>
+          <df name="patchdetect">
+          </df>
+          <df name="pcapparse">
+            <in>gstirtspparse.c</in>
+            <in>gstirtspparse.h</in>
+          </df>
+          <df name="playondemand">
+          </df>
+          <df name="pnm">
+            <in>gstpnm.c</in>
+            <in>gstpnmdec.h</in>
+            <in>gstpnmenc.h</in>
+            <in>gstpnmutils.h</in>
+          </df>
+          <df name="rawparse">
+          </df>
+          <df name="real">
+            <in>gstreal.h</in>
+            <in>gstrealaudiodec.c</in>
+            <in>gstrealaudiodec.h</in>
+          </df>
+          <df name="removesilence">
+          </df>
+          <df name="rtjpeg">
+            <in>RTjpeg.h</in>
+            <in>gstrtjpeg.c</in>
+            <in>gstrtjpegdec.c</in>
+            <in>gstrtjpegdec.h</in>
+            <in>gstrtjpegenc.h</in>
+          </df>
+          <df name="rtpmux">
+          </df>
+          <df name="rtpvp8">
+          </df>
+          <df name="scaletempo">
+            <in>gstscaletempo.h</in>
+            <in>gstscaletempoplugin.c</in>
+          </df>
+          <df name="sdi">
+            <in>gstsdimux.c</in>
+            <in>gstsdimux.h</in>
+          </df>
+          <df name="sdp">
+            <in>gstsdpdemux.h</in>
+            <in>gstsdpelem.c</in>
+          </df>
+          <df name="segmentclip">
+          </df>
+          <df name="siren">
+            <in>common.h</in>
+            <in>dct4.h</in>
+            <in>decoder.h</in>
+            <in>encoder.c</in>
+            <in>encoder.h</in>
+            <in>gstsiren.h</in>
+            <in>huffman.h</in>
+            <in>rmlt.h</in>
+            <in>siren7.h</in>
+          </df>
+          <df name="smooth">
+            <in>gstsmooth.c</in>
+            <in>gstsmooth.h</in>
+          </df>
+          <df name="smoothwave">
+          </df>
+          <df name="speed">
+          </df>
+          <df name="stereo">
+          </df>
+          <df name="subenc">
+          </df>
+          <df name="tta">
+            <in>crc32.h</in>
+            <in>gstttaparse.c</in>
+            <in>gstttaparse.h</in>
+            <in>ttadec.h</in>
+          </df>
+          <df name="vbidec">
+            <in>vbidata.c</in>
+            <in>vbidata.h</in>
+            <in>vbiscreen.h</in>
+          </df>
+          <df name="videodrop">
+            <in>gstvideodrop.c</in>
+            <in>gstvideodrop.h</in>
+          </df>
+          <df name="videofilters">
+            <in>gstscenechange.h</in>
+            <in>gstvideofilter2.c</in>
+            <in>gstvideofilter2.h</in>
+            <in>gstvideofiltersbad.c</in>
+            <in>gstzebrastripe.h</in>
+          </df>
+          <df name="videomaxrate">
+          </df>
+          <df name="videomeasure">
+          </df>
+          <df name="videoparsers">
+            <in>dirac_parse.h</in>
+            <in>gstdiracparse.h</in>
+            <in>gsth263parse.h</in>
+            <in>gsth264parse.c</in>
+            <in>gsth264parse.h</in>
+            <in>gstmpegvideoparse.h</in>
+            <in>h263parse.h</in>
+            <in>plugin.c</in>
+          </df>
+          <df name="videosignal">
+            <in>gstvideosignal.h</in>
+          </df>
+          <df name="vmnc">
+          </df>
+          <df name="y4m">
+          </df>
+        </df>
+        <df name="gst-libs">
+          <df name="gst">
+            <df name="basecamerabinsrc">
+              <in>gstbasecamerasrc.h</in>
+              <in>gstcamerabin-enum.h</in>
+              <in>gstcamerabinpreview.h</in>
+            </df>
+            <df name="codecparsers">
+              <in>gsth264parser.h</in>
+              <in>gstmpegvideoparser.h</in>
+            </df>
+            <df name="interfaces">
+              <in>photography-enumtypes.h</in>
+              <in>photography.h</in>
+            </df>
+            <df name="signalprocessor">
+              <in>gstsignalprocessor.h</in>
+            </df>
+            <df name="video">
+              <in>gstbasevideocodec.h</in>
+              <in>gstbasevideodecoder.c</in>
+              <in>gstbasevideodecoder.h</in>
+              <in>gstbasevideoencoder.h</in>
+              <in>gstbasevideoutils.h</in>
+            </df>
+            <in>gettext.h</in>
+            <in>gst-i18n-plugin.h</in>
+          </df>
+        </df>
+        <df name="m4">
+        </df>
+        <df name="pkgconfig">
+        </df>
+        <df name="po">
+        </df>
+        <df name="scripts">
+        </df>
+        <df name="sys">
+          <df name="acmenc">
+          </df>
+          <df name="acmmp3dec">
+          </df>
+          <df name="applemedia">
+            <in>bufferfactory.h</in>
+            <in>celapi.c</in>
+            <in>celapi.h</in>
+            <in>cmapi.h</in>
+            <in>coremediabuffer.c</in>
+            <in>coremediabuffer.h</in>
+            <in>coremediactx.h</in>
+            <in>cvapi.c</in>
+            <in>cvapi.h</in>
+            <in>dynapi-internal.h</in>
+            <in>dynapi.h</in>
+            <in>mioapi.c</in>
+            <in>mioapi.h</in>
+            <in>mtapi.c</in>
+            <in>mtapi.h</in>
+            <in>vtapi.h</in>
+          </df>
+          <df name="avc">
+            <in>gstavcsrc.cpp</in>
+            <in>gstavcsrc.h</in>
+          </df>
+          <df name="cdrom">
+            <in>gstcdplayer_ioctl_bsd.h</in>
+            <in>gstcdplayer_ioctl_irix.h</in>
+            <in>gstcdplayer_ioctl_solaris.h</in>
+          </df>
+          <df name="d3dvideosink">
+            <df name="directx">
+              <df name="directx10">
+                <in>dx10.c</in>
+                <in>dx10.h</in>
+                <in>dx10_d3d.h</in>
+              </df>
+              <df name="directx11">
+                <in>dx11.c</in>
+                <in>dx11.h</in>
+                <in>dx11_d3d.c</in>
+                <in>dx11_d3d.h</in>
+              </df>
+              <df name="directx9">
+                <in>dx9.h</in>
+                <in>dx9_d3d.h</in>
+              </df>
+              <in>d3d.c</in>
+              <in>d3d.h</in>
+              <in>directx.h</in>
+              <in>dx.h</in>
+            </df>
+          </df>
+          <df name="decklink">
+            <df name="linux">
+              <in>DeckLinkAPI.h</in>
+              <in>DeckLinkAPIDispatch.cpp</in>
+              <in>LinuxCOM.h</in>
+            </df>
+            <df name="win">
+              <in>DeckLinkAPI.h</in>
+              <in>DeckLinkAPIDispatch.cpp</in>
+              <in>DeckLinkAPI_i.c</in>
+            </df>
+            <in>capture.cpp</in>
+            <in>capture.h</in>
+            <in>gstdecklink.cpp</in>
+            <in>gstdecklink.h</in>
+            <in>gstdecklinksink.cpp</in>
+            <in>gstdecklinksink.h</in>
+            <in>gstdecklinksrc.cpp</in>
+            <in>gstdecklinksrc.h</in>
+          </df>
+          <df name="directdraw">
+          </df>
+          <df name="directsound">
+          </df>
+          <df name="dshowdecwrapper">
+            <in>gstdshowdecwrapper.h</in>
+          </df>
+          <df name="dshowsrcwrapper">
+            <in>gstdshow.cpp</in>
+            <in>gstdshow.h</in>
+            <in>gstdshowaudiosrc.cpp</in>
+            <in>gstdshowaudiosrc.h</in>
+            <in>gstdshowfakesink.h</in>
+          </df>
+          <df name="dshowvideosink">
+            <in>dshowvideofakesrc.cpp</in>
+            <in>dshowvideofakesrc.h</in>
+          </df>
+          <df name="dvb">
+            <in>cam.h</in>
+            <in>camsession.c</in>
+            <in>camsession.h</in>
+            <in>camtransport.h</in>
+            <in>camutils.c</in>
+            <in>camutils.h</in>
+          </df>
+          <df name="dxr3">
+            <in>ac3_padder.h</in>
+            <in>dxr3audiosink.c</in>
+            <in>dxr3audiosink.h</in>
+            <in>dxr3common.h</in>
+            <in>dxr3init.c</in>
+            <in>dxr3spusink.h</in>
+            <in>dxr3videosink.c</in>
+            <in>dxr3videosink.h</in>
+          </df>
+          <df name="fbdev">
+          </df>
+          <df name="linsys">
+            <df name="include">
+              <in>asi.h</in>
+              <in>master.h</in>
+              <in>sdi.h</in>
+              <in>sdiaudio.h</in>
+              <in>sdivideo.h</in>
+            </df>
+          </df>
+          <df name="osxvideo">
+          </df>
+          <df name="qcam">
+          </df>
+          <df name="qtwrapper">
+            <in>codecmapping.h</in>
+            <in>imagedescription.h</in>
+            <in>qtutils.h</in>
+            <in>qtwrapper.h</in>
+            <in>videodecoders.c</in>
+          </df>
+          <df name="shm">
+          </df>
+          <df name="v4l2">
+          </df>
+          <df name="vcd">
+          </df>
+          <df name="vdpau">
+            <df name="basevideodecoder">
+              <in>gstbasevideodecoder.h</in>
+              <in>gstbasevideoutils.h</in>
+              <in>gstvideoframe.h</in>
+            </df>
+            <df name="gstvdp">
+              <in>gstvdpbuffer.h</in>
+              <in>gstvdpbufferpool.h</in>
+              <in>gstvdpdecoder.h</in>
+              <in>gstvdpdevice.c</in>
+              <in>gstvdpdevice.h</in>
+              <in>gstvdpoutputbuffer.h</in>
+              <in>gstvdpoutputsrcpad.h</in>
+              <in>gstvdputils.h</in>
+              <in>gstvdpvideobuffer.h</in>
+              <in>gstvdpvideobufferpool.h</in>
+            </df>
+            <df name="h264">
+              <in>gsth264parser.c</in>
+              <in>gsth264parser.h</in>
+              <in>gstnalreader.c</in>
+              <in>gstnalreader.h</in>
+            </df>
+            <df name="mpeg">
+              <in>gstvdpmpegframe.c</in>
+              <in>gstvdpmpegframe.h</in>
+            </df>
+            <df name="mpeg4">
+              <in>gstmpeg4frame.c</in>
+              <in>gstmpeg4frame.h</in>
+              <in>gstvdpmpeg4dec.c</in>
+              <in>gstvdpmpeg4dec.h</in>
+              <in>mpeg4util.h</in>
+            </df>
+            <in>gstvdpvideopostprocess.c</in>
+            <in>gstvdpvideopostprocess.h</in>
+          </df>
+          <df name="wasapi">
+            <in>gstwasapiutil.c</in>
+            <in>gstwasapiutil.h</in>
+          </df>
+          <df name="wininet">
+          </df>
+          <df name="winks">
+            <in>kshelpers.c</in>
+            <in>kshelpers.h</in>
+          </df>
+          <df name="winscreencap">
+          </df>
+        </df>
+        <df name="tests">
+          <df name="check">
+            <df name="elements">
+              <in>h263parse.c</in>
+              <in>h264parse.c</in>
+              <in>mpeg4videoparse.c</in>
+              <in>mpegvideoparse.c</in>
+              <in>mxfdemux.c</in>
+              <in>mxfdemux.h</in>
+              <in>parser.h</in>
+            </df>
+            <df name="generic">
+            </df>
+            <df name="libs">
+            </df>
+            <df name="pipelines">
+            </df>
+          </df>
+          <df name="examples">
+            <df name="camerabin">
+              <in>gst-camera.c</in>
+              <in>gst-camera.h</in>
+            </df>
+            <df name="camerabin2">
+              <in>gst-camera2.c</in>
+              <in>gst-camera2.h</in>
+            </df>
+            <df name="capsfilter">
+            </df>
+            <df name="directfb">
+            </df>
+            <df name="gstplay">
+            </df>
+            <df name="indexing">
+            </df>
+            <df name="level">
+            </df>
+            <df name="mpegtsmux">
+            </df>
+            <df name="mxf">
+            </df>
+            <df name="opencv">
+              <in>gst_element_print_properties.h</in>
+              <in>gstmotioncells_dynamic_test.c</in>
+              <in>gstmotioncells_dynamic_test.h</in>
+            </df>
+            <df name="scaletempo">
+            </df>
+            <df name="stats">
+            </df>
+          </df>
+          <df name="files">
+          </df>
+          <df name="icles">
+            <df name="dccp">
+              <df name="call">
+              </df>
+              <df name="file">
+              </df>
+              <df name="mic">
+                <in>DCCPClientPlayMic.c</in>
+              </df>
+              <df name="mp3">
+                <in>DCCPClientPlayMP3.c</in>
+              </df>
+              <df name="mp3Speex">
+              </df>
+              <df name="mp3Stream">
+                <in>DCCPClientPlayMP3Stream.c</in>
+              </df>
+            </df>
+            <in>metadata_editor.c</in>
+            <in>metadata_editor.h</in>
+          </df>
+        </df>
+        <df name="tools">
+          <df name="element-templates">
+          </df>
+        </df>
+        <df name="win32">
+          <df name="common">
+            <in>config.h</in>
+          </df>
+          <df name="vs6">
+          </df>
+          <df name="vs8">
+          </df>
+          <df name="vs9">
+          </df>
+        </df>
+        <in>_stdint.h</in>
+        <in>config.h</in>
+      </df>
+      <df name="gst-plugins-base">
+        <df name="android">
+        </df>
+        <df name="autom4te.cache">
+        </df>
+        <df name="common">
+          <df name="coverage">
+          </df>
+          <df name="hooks">
+          </df>
+          <df name="m4">
+          </df>
+        </df>
+        <df name="docs">
+          <df name="design">
+          </df>
+          <df name="libs">
+            <df name="html">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+          <df name="plugins">
+            <df name="html">
+            </df>
+            <df name="inspect">
+            </df>
+            <df name="tmpl">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+          <df name="random">
+          </df>
+        </df>
+        <df name="ext">
+          <df name="alsa">
+            <in>gstalsa.h</in>
+            <in>gstalsadeviceprobe.c</in>
+            <in>gstalsadeviceprobe.h</in>
+            <in>gstalsamixeroptions.c</in>
+            <in>gstalsamixeroptions.h</in>
+          </df>
+          <df name="cdparanoia">
+          </df>
+          <df name="gio">
+          </df>
+          <df name="gnomevfs">
+            <in>gstgnomevfs.c</in>
+            <in>gstgnomevfs.h</in>
+            <in>gstgnomevfssink.h</in>
+            <in>gstgnomevfssrc.h</in>
+            <in>gstgnomevfsuri.h</in>
+          </df>
+          <df name="libvisual">
+          </df>
+          <df name="ogg">
+          </df>
+          <df name="pango">
+          </df>
+          <df name="theora">
+          </df>
+          <df name="vorbis">
+            <in>gstvorbiscommon.c</in>
+            <in>gstvorbiscommon.h</in>
+          </df>
+        </df>
+        <df name="gst">
+          <df name="adder">
+            <in>gstadderorc-dist.h</in>
+          </df>
+          <df name="app">
+          </df>
+          <df name="audioconvert">
+            <in>audioconvert.h</in>
+            <in>gstaudioconvertorc-dist.h</in>
+            <in>gstchannelmix.c</in>
+            <in>gstchannelmix.h</in>
+          </df>
+          <df name="audiorate">
+          </df>
+          <df name="audioresample">
+            <in>arch.h</in>
+            <in>fixed_arm5e.h</in>
+            <in>fixed_debug.h</in>
+            <in>gstaudioresample.c</in>
+            <in>gstaudioresample.h</in>
+            <in>resample.c</in>
+            <in>resample_sse.h</in>
+            <in>speex_resampler.h</in>
+            <in>speex_resampler_double.c</in>
+            <in>speex_resampler_float.c</in>
+            <in>speex_resampler_wrapper.h</in>
+          </df>
+          <df name="audiotestsrc">
+          </df>
+          <df name="encoding">
+            <in>gstencode-marshal.h</in>
+            <in>gstencodebin.c</in>
+            <in>gstencodebin.h</in>
+            <in>gstsmartencoder.h</in>
+            <in>gststreamcombiner.c</in>
+            <in>gststreamcombiner.h</in>
+            <in>gststreamsplitter.c</in>
+            <in>gststreamsplitter.h</in>
+          </df>
+          <df name="ffmpegcolorspace">
+            <in>avcodec.h</in>
+            <in>mem.c</in>
+          </df>
+          <df name="gdp">
+          </df>
+          <df name="playback">
+            <in>gstplay-marshal.c</in>
+            <in>gstplay-marshal.h</in>
+            <in>gstplaysinkaudioconvert.c</in>
+            <in>gstplaysinkaudioconvert.h</in>
+          </df>
+          <df name="subparse">
+          </df>
+          <df name="tcp">
+            <in>gsttcp-enumtypes.h</in>
+            <in>gsttcp.c</in>
+            <in>gsttcp.h</in>
+            <in>gsttcpplugin.h</in>
+            <in>gsttcpserversrc.c</in>
+            <in>gsttcpserversrc.h</in>
+          </df>
+          <df name="typefind">
+          </df>
+          <df name="videorate">
+          </df>
+          <df name="videoscale">
+            <in>gstvideoscaleorc-dist.h</in>
+          </df>
+          <df name="videotestsrc">
+            <in>gstvideotestsrcorc-dist.h</in>
+          </df>
+          <df name="volume">
+            <in>gstvolumeorc-dist.c</in>
+            <in>gstvolumeorc-dist.h</in>
+          </df>
+        </df>
+        <df name="gst-libs">
+          <df name="ext">
+          </df>
+          <df name="gst">
+            <df name="app">
+              <in>gstapp-marshal.c</in>
+              <in>gstapp-marshal.h</in>
+              <in>gstappbuffer.c</in>
+              <in>gstappbuffer.h</in>
+              <in>gstappsink.c</in>
+              <in>gstappsink.h</in>
+              <in>gstappsrc.h</in>
+            </df>
+            <df name="audio">
+              <in>audio-enumtypes.h</in>
+              <in>audio.h</in>
+              <in>gstaudioclock.h</in>
+              <in>gstaudiodecoder.c</in>
+              <in>gstaudiodecoder.h</in>
+              <in>gstaudioencoder.h</in>
+              <in>gstaudiofilter.h</in>
+              <in>gstaudioiec61937.c</in>
+              <in>gstaudioiec61937.h</in>
+              <in>gstaudiosink.h</in>
+              <in>gstaudiosrc.h</in>
+              <in>gstbaseaudiosink.h</in>
+              <in>gstbaseaudiosrc.h</in>
+              <in>gstringbuffer.h</in>
+              <in>multichannel.h</in>
+            </df>
+            <df name="cdda">
+              <in>gstcddabasesrc.h</in>
+            </df>
+            <df name="fft">
+              <in>_kiss_fft_guts_s16.h</in>
+              <in>gstfft.h</in>
+              <in>gstfftf32.h</in>
+              <in>kiss_fft_s16.c</in>
+              <in>kiss_fft_s16.h</in>
+            </df>
+            <df name="floatcast">
+              <in>floatcast.h</in>
+            </df>
+            <df name="interfaces">
+              <in>colorbalance.h</in>
+              <in>colorbalancechannel.h</in>
+              <in>interfaces-enumtypes.c</in>
+              <in>interfaces-enumtypes.h</in>
+              <in>mixer.h</in>
+              <in>mixeroptions.h</in>
+              <in>mixertrack.h</in>
+              <in>navigation.h</in>
+              <in>propertyprobe.h</in>
+              <in>streamvolume.h</in>
+              <in>tuner.h</in>
+              <in>tunerchannel.c</in>
+              <in>tunerchannel.h</in>
+              <in>tunernorm.h</in>
+              <in>videoorientation.h</in>
+              <in>xoverlay.h</in>
+            </df>
+            <df name="netbuffer">
+              <in>gstnetbuffer.c</in>
+              <in>gstnetbuffer.h</in>
+            </df>
+            <df name="pbutils">
+              <in>codec-utils.c</in>
+              <in>codec-utils.h</in>
+              <in>descriptions.h</in>
+              <in>encoding-profile.h</in>
+              <in>encoding-target.h</in>
+              <in>gstdiscoverer.h</in>
+              <in>gstpluginsbaseversion.h</in>
+              <in>install-plugins.h</in>
+              <in>missing-plugins.h</in>
+              <in>pbutils-enumtypes.c</in>
+              <in>pbutils-enumtypes.h</in>
+              <in>pbutils.c</in>
+              <in>pbutils.h</in>
+            </df>
+            <df name="riff">
+              <in>riff-ids.h</in>
+              <in>riff-media.h</in>
+              <in>riff-read.h</in>
+            </df>
+            <df name="rtp">
+              <in>gstbasertpaudiopayload.h</in>
+              <in>gstbasertpdepayload.h</in>
+              <in>gstbasertppayload.h</in>
+              <in>gstrtcpbuffer.h</in>
+              <in>gstrtpbuffer.h</in>
+              <in>gstrtppayloads.h</in>
+            </df>
+            <df name="rtsp">
+              <in>gstrtsp-enumtypes.h</in>
+              <in>gstrtsp.h</in>
+              <in>gstrtspconnection.h</in>
+              <in>gstrtspdefs.h</in>
+              <in>gstrtspextension.h</in>
+              <in>gstrtspmessage.h</in>
+              <in>gstrtsprange.h</in>
+              <in>gstrtsptransport.h</in>
+              <in>gstrtspurl.c</in>
+              <in>gstrtspurl.h</in>
+            </df>
+            <df name="sdp">
+              <in>gstsdp.h</in>
+              <in>gstsdpmessage.c</in>
+              <in>gstsdpmessage.h</in>
+            </df>
+            <df name="tag">
+              <in>gsttagdemux.c</in>
+              <in>gsttagdemux.h</in>
+              <in>gsttagmux.c</in>
+              <in>gsttagmux.h</in>
+              <in>mklicensestables.c</in>
+              <in>tag.h</in>
+              <in>xmpwriter.h</in>
+            </df>
+            <df name="video">
+              <in>gstvideofilter.h</in>
+              <in>gstvideosink.h</in>
+              <in>video-enumtypes.h</in>
+              <in>video.h</in>
+            </df>
+            <in>gettext.h</in>
+            <in>gst-i18n-plugin.h</in>
+          </df>
+        </df>
+        <df name="m4">
+        </df>
+        <df name="pkgconfig">
+        </df>
+        <df name="po">
+        </df>
+        <df name="sys">
+          <df name="v4l">
+            <in>gstv4lelement.h</in>
+            <in>gstv4lsrc.h</in>
+            <in>gstv4lxoverlay.c</in>
+            <in>gstv4lxoverlay.h</in>
+            <in>v4l_calls.h</in>
+            <in>v4lsrc_calls.c</in>
+            <in>v4lsrc_calls.h</in>
+          </df>
+          <df name="ximage">
+            <in>ximage.c</in>
+            <in>ximagesink.h</in>
+          </df>
+          <df name="xvimage">
+          </df>
+        </df>
+        <df name="tests">
+          <df name="check">
+            <df name="elements">
+              <in>appsrc.c</in>
+              <in>audiorate.c</in>
+              <in>audiotestsrc.c</in>
+              <in>decodebin.c</in>
+              <in>gdpdepay.c</in>
+              <in>videotestsrc.c</in>
+              <in>vorbistag.c</in>
+            </df>
+            <df name="generic">
+            </df>
+            <df name="gst">
+            </df>
+            <df name="libs">
+              <in>discoverer.c</in>
+              <in>profile.c</in>
+              <in>struct_arm.h</in>
+              <in>struct_i386_osx.h</in>
+            </df>
+            <df name="pipelines">
+              <in>gio.c</in>
+              <in>oggmux.c</in>
+            </df>
+          </df>
+          <df name="examples">
+            <df name="app">
+              <in>appsrc-stream2.c</in>
+            </df>
+            <df name="audio">
+              <in>volume.c</in>
+            </df>
+            <df name="dynamic">
+            </df>
+            <df name="encoding">
+            </df>
+            <df name="gio">
+            </df>
+            <df name="overlay">
+            </df>
+            <df name="playrec">
+            </df>
+            <df name="seek">
+            </df>
+            <df name="snapshot">
+            </df>
+            <df name="v4l">
+              <in>probe.c</in>
+            </df>
+          </df>
+          <df name="files">
+          </df>
+          <df name="icles">
+            <df name="playback">
+            </df>
+            <in>audio-trickplay.c</in>
+            <in>output-selector-test.c</in>
+            <in>test-box.c</in>
+          </df>
+          <df name="old">
+            <df name="examples">
+              <df name="capsfilter">
+              </df>
+              <df name="gob">
+              </df>
+              <df name="indexing">
+              </df>
+              <df name="seek">
+              </df>
+              <df name="stats">
+              </df>
+              <df name="switch">
+              </df>
+            </df>
+            <df name="testsuite">
+              <df name="alsa">
+                <in>sinesrc.h</in>
+                <in>state.c</in>
+              </df>
+              <df name="embed">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="tools">
+        </df>
+        <df name="win32">
+          <df name="common">
+            <in>_stdint.h</in>
+            <in>config.h</in>
+            <in>interfaces-enumtypes.c</in>
+            <in>interfaces-enumtypes.h</in>
+            <in>video-enumtypes.c</in>
+            <in>video-enumtypes.h</in>
+          </df>
+          <df name="vs6">
+          </df>
+          <df name="vs7">
+          </df>
+          <df name="vs8">
+          </df>
+        </df>
+        <in>_stdint.h</in>
+      </df>
+      <df name="gst-plugins-good">
+        <df name="autom4te.cache">
+        </df>
+        <df name="common">
+          <df name="coverage">
+          </df>
+          <df name="hooks">
+          </df>
+          <df name="m4">
+          </df>
+        </df>
+        <df name="docs">
+          <df name="plugins">
+            <df name="html">
+            </df>
+            <df name="inspect">
+            </df>
+            <df name="tmpl">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+          <df name="random">
+          </df>
+        </df>
+        <df name="ext">
+          <df name="aalib">
+          </df>
+          <df name="annodex">
+            <in>gstannodex.h</in>
+            <in>gstcmmlenc.c</in>
+            <in>gstcmmlenc.h</in>
+            <in>gstcmmlparser.h</in>
+            <in>gstcmmltag.h</in>
+            <in>gstcmmlutils.h</in>
+          </df>
+          <df name="cairo">
+            <in>gstcairo-marshal.h</in>
+            <in>gstcairooverlay.c</in>
+            <in>gstcairooverlay.h</in>
+          </df>
+          <df name="dv">
+            <in>gstdvdemux.c</in>
+            <in>gstdvdemux.h</in>
+            <in>gstsmptetimecode.h</in>
+          </df>
+          <df name="esd">
+            <in>esdsink.c</in>
+            <in>esdsink.h</in>
+          </df>
+          <df name="flac">
+            <in>gstflactag.c</in>
+            <in>gstflactag.h</in>
+          </df>
+          <df name="gconf">
+          </df>
+          <df name="gdk_pixbuf">
+            <in>gst_loader.c</in>
+            <in>gstgdkanimation.h</in>
+            <in>gstgdkpixbuf.c</in>
+            <in>gstgdkpixbuf.h</in>
+            <in>gstgdkpixbufsink.h</in>
+            <in>pixbufscale.c</in>
+            <in>pixbufscale.h</in>
+          </df>
+          <df name="hal">
+            <in>gsthalaudiosrc.c</in>
+            <in>gsthalaudiosrc.h</in>
+            <in>gsthalelements.h</in>
+            <in>hal.h</in>
+          </df>
+          <df name="jack">
+            <in>gstjack.c</in>
+            <in>gstjack.h</in>
+            <in>gstjackaudioclient.h</in>
+            <in>gstjackaudiosink.h</in>
+            <in>gstjackaudiosrc.h</in>
+          </df>
+          <df name="jpeg">
+            <in>gstsmokeenc.c</in>
+            <in>gstsmokeenc.h</in>
+            <in>smokecodec.c</in>
+            <in>smokecodec.h</in>
+            <in>smokeformat.h</in>
+          </df>
+          <df name="libcaca">
+          </df>
+          <df name="libmng">
+            <in>gstmngenc.c</in>
+            <in>gstmngenc.h</in>
+          </df>
+          <df name="libpng">
+            <in>gstpng.h</in>
+            <in>gstpngenc.c</in>
+            <in>gstpngenc.h</in>
+          </df>
+          <df name="mikmod">
+            <in>gstmikmod.h</in>
+            <in>mikmod_reader.c</in>
+          </df>
+          <df name="pulse">
+            <in>pulseprobe.h</in>
+            <in>pulsesink.c</in>
+            <in>pulsesink.h</in>
+            <in>pulseutil.c</in>
+            <in>pulseutil.h</in>
+          </df>
+          <df name="raw1394">
+          </df>
+          <df name="shout2">
+            <in>gstshout2.c</in>
+            <in>gstshout2.h</in>
+          </df>
+          <df name="soup">
+            <in>gstsoup.c</in>
+            <in>gstsouphttpclientsink.c</in>
+            <in>gstsouphttpclientsink.h</in>
+            <in>gstsouphttpsrc.c</in>
+            <in>gstsouphttpsrc.h</in>
+          </df>
+          <df name="speex">
+          </df>
+          <df name="taglib">
+          </df>
+          <df name="wavpack">
+          </df>
+        </df>
+        <df name="gconf">
+        </df>
+        <df name="gst">
+          <df name="alpha">
+          </df>
+          <df name="apetag">
+            <in>gstapedemux.c</in>
+            <in>gstapedemux.h</in>
+          </df>
+          <df name="audiofx">
+            <in>audiofxbaseiirfilter.c</in>
+            <in>audiofxbaseiirfilter.h</in>
+          </df>
+          <df name="audioparsers">
+            <in>gstaacparse.c</in>
+            <in>gstaacparse.h</in>
+            <in>gstamrparse.c</in>
+            <in>gstamrparse.h</in>
+            <in>gstmpegaudioparse.c</in>
+            <in>gstmpegaudioparse.h</in>
+          </df>
+          <df name="auparse">
+          </df>
+          <df name="autodetect">
+            <in>gstautoaudiosink.c</in>
+            <in>gstautoaudiosink.h</in>
+            <in>gstautoaudiosrc.h</in>
+            <in>gstautodetect.c</in>
+            <in>gstautodetect.h</in>
+            <in>gstautovideosink.h</in>
+            <in>gstautovideosrc.c</in>
+            <in>gstautovideosrc.h</in>
+          </df>
+          <df name="avi">
+            <in>avi-ids.h</in>
+            <in>gstavidemux.c</in>
+            <in>gstavidemux.h</in>
+          </df>
+          <df name="cutter">
+            <in>gstcutter.c</in>
+            <in>gstcutter.h</in>
+          </df>
+          <df name="debugutils">
+            <in>efence.c</in>
+            <in>efence.h</in>
+            <in>gstnavigationtest.c</in>
+            <in>gstnavigationtest.h</in>
+            <in>testplugin.c</in>
+            <in>tests.c</in>
+            <in>tests.h</in>
+          </df>
+          <df name="deinterlace">
+            <df name="tvtime">
+              <df name="tomsmocomp">
+                <in>SearchLoop0A.inc</in>
+                <in>SearchLoopBottom.inc</in>
+                <in>SearchLoopEdgeA.inc</in>
+                <in>SearchLoopEdgeA8.inc</in>
+                <in>SearchLoopOddA.inc</in>
+                <in>SearchLoopOddA2.inc</in>
+                <in>SearchLoopOddA6.inc</in>
+                <in>SearchLoopOddAH2.inc</in>
+                <in>SearchLoopTop.inc</in>
+                <in>SearchLoopVA.inc</in>
+                <in>SearchLoopVAH.inc</in>
+                <in>StrangeBob.inc</in>
+                <in>TomsMoCompAll.inc</in>
+                <in>TomsMoCompAll2.inc</in>
+                <in>WierdBob.inc</in>
+                <in>tomsmocompmacros.h</in>
+              </df>
+              <in>greedyh.asm</in>
+              <in>linear.c</in>
+              <in>mmx.h</in>
+              <in>plugins.h</in>
+              <in>sse.h</in>
+              <in>tomsmocomp.c</in>
+              <in>x86-64_macros.inc</in>
+            </df>
+            <in>gstdeinterlacemethod.h</in>
+            <in>tvtime-dist.h</in>
+            <in>tvtime.h</in>
+          </df>
+          <df name="effectv">
+            <in>gstaging.c</in>
+            <in>gstaging.h</in>
+            <in>gsteffectv.h</in>
+            <in>gstop.c</in>
+            <in>gstop.h</in>
+            <in>gstrev.c</in>
+            <in>gstrev.h</in>
+            <in>gstshagadelic.c</in>
+            <in>gstshagadelic.h</in>
+            <in>gstvertigo.c</in>
+            <in>gstvertigo.h</in>
+            <in>gstwarp.c</in>
+            <in>gstwarp.h</in>
+          </df>
+          <df name="equalizer">
+          </df>
+          <df name="flv">
+          </df>
+          <df name="flx">
+            <in>flx_color.c</in>
+            <in>flx_color.h</in>
+          </df>
+          <df name="goom">
+            <in>convolve_fx.c</in>
+            <in>drawmethods.h</in>
+            <in>filters.c</in>
+            <in>goom_config.h</in>
+            <in>goom_config_param.h</in>
+            <in>goom_filters.h</in>
+            <in>goom_fx.h</in>
+            <in>goom_graphic.h</in>
+            <in>goom_plugin_info.h</in>
+            <in>goom_tools.h</in>
+            <in>goom_typedefs.h</in>
+            <in>goom_visual_fx.h</in>
+            <in>goomsl_lex.l</in>
+            <in>goomsl_yacc.y</in>
+            <in>lines.c</in>
+            <in>lines.h</in>
+            <in>mathtools.c</in>
+            <in>mathtools.h</in>
+            <in>mmx.h</in>
+            <in>motif_goom1.h</in>
+            <in>motif_goom2.h</in>
+            <in>plugin_info.c</in>
+            <in>ppc_drawings.h</in>
+            <in>ppc_zoom_ultimate.h</in>
+            <in>sound_tester.c</in>
+            <in>sound_tester.h</in>
+            <in>v3d.h</in>
+            <in>xmmx.h</in>
+          </df>
+          <df name="goom2k1">
+            <in>filters.c</in>
+            <in>filters.h</in>
+            <in>goom_core.h</in>
+            <in>goom_tools.h</in>
+            <in>graphic.h</in>
+          </df>
+          <df name="icydemux">
+          </df>
+          <df name="id3demux">
+          </df>
+          <df name="imagefreeze">
+            <in>gstimagefreeze.c</in>
+            <in>gstimagefreeze.h</in>
+          </df>
+          <df name="interleave">
+          </df>
+          <df name="isomp4">
+            <in>atoms.c</in>
+            <in>atoms.h</in>
+            <in>descriptors.h</in>
+            <in>fourcc.h</in>
+            <in>ftypcc.h</in>
+            <in>gstqtmux-doc.c</in>
+            <in>gstqtmux-doc.h</in>
+            <in>properties.h</in>
+            <in>qtdemux.h</in>
+            <in>qtdemux_lang.c</in>
+            <in>qtdemux_lang.h</in>
+          </df>
+          <df name="law">
+            <in>mulaw-conversion.c</in>
+            <in>mulaw-conversion.h</in>
+            <in>mulaw-decode.h</in>
+            <in>mulaw-encode.h</in>
+            <in>mulaw.c</in>
+          </df>
+          <df name="level">
+            <in>gstlevel.c</in>
+            <in>gstlevel.h</in>
+          </df>
+          <df name="matroska">
+            <in>ebml-ids.h</in>
+            <in>lzo.c</in>
+            <in>lzo.h</in>
+            <in>matroska-ids.c</in>
+            <in>matroska-ids.h</in>
+          </df>
+          <df name="median">
+          </df>
+          <df name="monoscope">
+          </df>
+          <df name="multifile">
+            <in>gstmultifilesrc.c</in>
+            <in>gstmultifilesrc.h</in>
+          </df>
+          <df name="multipart">
+            <in>multipartdemux.c</in>
+            <in>multipartdemux.h</in>
+          </df>
+          <df name="replaygain">
+            <in>gstrglimiter.c</in>
+            <in>gstrglimiter.h</in>
+            <in>rganalysis.c</in>
+            <in>rganalysis.h</in>
+          </df>
+          <df name="rtp">
+            <in>fnv1hash.h</in>
+            <in>gstasteriskh263.c</in>
+            <in>gstasteriskh263.h</in>
+            <in>gstrtpL16pay.c</in>
+            <in>gstrtpL16pay.h</in>
+            <in>gstrtpac3pay.c</in>
+            <in>gstrtpac3pay.h</in>
+            <in>gstrtpamrdepay.c</in>
+            <in>gstrtpamrdepay.h</in>
+            <in>gstrtpchannels.h</in>
+            <in>gstrtpg722pay.c</in>
+            <in>gstrtpg722pay.h</in>
+            <in>gstrtpg726depay.c</in>
+            <in>gstrtpg726depay.h</in>
+            <in>gstrtpg729depay.c</in>
+            <in>gstrtpg729depay.h</in>
+            <in>gstrtpgsmdepay.c</in>
+            <in>gstrtpgsmdepay.h</in>
+            <in>gstrtpgsmpay.c</in>
+            <in>gstrtpgsmpay.h</in>
+            <in>gstrtph263depay.c</in>
+            <in>gstrtph263depay.h</in>
+            <in>gstrtpmp1sdepay.c</in>
+            <in>gstrtpmp1sdepay.h</in>
+            <in>gstrtpmp4adepay.c</in>
+            <in>gstrtpmp4adepay.h</in>
+            <in>gstrtpmp4apay.c</in>
+            <in>gstrtpmp4apay.h</in>
+            <in>gstrtpmp4gpay.c</in>
+            <in>gstrtpmp4gpay.h</in>
+            <in>gstrtpmpadepay.c</in>
+            <in>gstrtpmpadepay.h</in>
+            <in>gstrtppcmadepay.c</in>
+            <in>gstrtppcmadepay.h</in>
+            <in>gstrtppcmupay.c</in>
+            <in>gstrtppcmupay.h</in>
+            <in>gstrtpqcelpdepay.c</in>
+            <in>gstrtpqcelpdepay.h</in>
+            <in>gstrtpspeexpay.c</in>
+            <in>gstrtpspeexpay.h</in>
+            <in>gstrtpsv3vdepay.c</in>
+            <in>gstrtpsv3vdepay.h</in>
+            <in>gstrtptheorapay.c</in>
+            <in>gstrtptheorapay.h</in>
+            <in>gstrtpvorbisdepay.c</in>
+            <in>gstrtpvorbisdepay.h</in>
+          </df>
+          <df name="rtpmanager">
+            <in>gstrtpbin-marshal.h</in>
+            <in>gstrtpbin.h</in>
+            <in>gstrtpjitterbuffer.h</in>
+            <in>gstrtpmanager.c</in>
+            <in>gstrtpptdemux.c</in>
+            <in>gstrtpptdemux.h</in>
+            <in>gstrtpsession.h</in>
+            <in>gstrtpssrcdemux.h</in>
+            <in>rtpjitterbuffer.h</in>
+            <in>rtpsession.h</in>
+            <in>rtpsource.h</in>
+            <in>rtpstats.h</in>
+          </df>
+          <df name="rtsp">
+            <in>gstrtpdec.c</in>
+            <in>gstrtpdec.h</in>
+            <in>gstrtspext.c</in>
+            <in>gstrtspext.h</in>
+          </df>
+          <df name="shapewipe">
+          </df>
+          <df name="smpte">
+            <in>gstmask.h</in>
+            <in>gstsmpte.c</in>
+            <in>gstsmpte.h</in>
+            <in>paint.c</in>
+            <in>paint.h</in>
+          </df>
+          <df name="spectrum">
+            <in>gstspectrum.c</in>
+            <in>gstspectrum.h</in>
+          </df>
+          <df name="udp">
+            <in>gstudp-enumtypes.c</in>
+            <in>gstudp-enumtypes.h</in>
+            <in>gstudp.h</in>
+            <in>gstudpnetutils.c</in>
+            <in>gstudpnetutils.h</in>
+            <in>gstudpsrc.c</in>
+            <in>gstudpsrc.h</in>
+          </df>
+          <df name="videobox">
+            <in>gstvideoboxorc-dist.h</in>
+          </df>
+          <df name="videocrop">
+          </df>
+          <df name="videofilter">
+          </df>
+          <df name="videomixer">
+            <in>blendorc-dist.h</in>
+          </df>
+          <df name="wavenc">
+          </df>
+          <df name="wavparse">
+          </df>
+          <df name="y4m">
+          </df>
+        </df>
+        <df name="gst-libs">
+          <df name="gst">
+            <in>gettext.h</in>
+            <in>gst-i18n-plugin.h</in>
+          </df>
+        </df>
+        <df name="m4">
+        </df>
+        <df name="pkgconfig">
+        </df>
+        <df name="po">
+        </df>
+        <df name="sys">
+          <df name="directsound">
+          </df>
+          <df name="oss">
+            <in>common.h</in>
+            <in>gstossdmabuffer.h</in>
+            <in>gstosshelper.h</in>
+            <in>gstossmixer.h</in>
+            <in>gstossmixerelement.c</in>
+            <in>gstossmixerelement.h</in>
+            <in>gstossmixertrack.h</in>
+          </df>
+          <df name="oss4">
+            <in>oss4-audio.h</in>
+            <in>oss4-mixer-enum.h</in>
+            <in>oss4-mixer-slider.h</in>
+            <in>oss4-mixer-switch.h</in>
+            <in>oss4-mixer.c</in>
+            <in>oss4-mixer.h</in>
+            <in>oss4-property-probe.c</in>
+            <in>oss4-property-probe.h</in>
+            <in>oss4-sink.c</in>
+            <in>oss4-sink.h</in>
+            <in>oss4-soundcard.h</in>
+            <in>oss4-source.h</in>
+          </df>
+          <df name="osxaudio">
+          </df>
+          <df name="osxvideo">
+            <in>cocoawindow.h</in>
+          </df>
+          <df name="sunaudio">
+            <in>gstsunaudiosink.c</in>
+            <in>gstsunaudiosink.h</in>
+          </df>
+          <df name="v4l2">
+            <in>gstv4l2bufferpool.c</in>
+            <in>gstv4l2bufferpool.h</in>
+            <in>gstv4l2colorbalance.h</in>
+            <in>gstv4l2object.h</in>
+            <in>gstv4l2src.h</in>
+            <in>gstv4l2tuner.h</in>
+            <in>v4l2_calls.c</in>
+            <in>v4l2_calls.h</in>
+          </df>
+          <df name="waveform">
+            <in>gstwaveformplugin.c</in>
+            <in>gstwaveformsink.h</in>
+          </df>
+          <df name="ximage">
+          </df>
+        </df>
+        <df name="tests">
+          <df name="check">
+            <df name="elements">
+              <in>aacparse.c</in>
+              <in>audioiirfilter.c</in>
+              <in>audiowsincband.c</in>
+              <in>audiowsinclimit.c</in>
+              <in>avisubtitle.c</in>
+              <in>flacparse.c</in>
+              <in>parser.h</in>
+              <in>rtpbin.c</in>
+            </df>
+            <df name="generic">
+            </df>
+            <df name="pipelines">
+            </df>
+          </df>
+          <df name="examples">
+            <df name="audiofx">
+              <in>iirfilter-example.c</in>
+            </df>
+            <df name="cairo">
+            </df>
+            <df name="equalizer">
+            </df>
+            <df name="jack">
+            </df>
+            <df name="level">
+            </df>
+            <df name="pulse">
+            </df>
+            <df name="rtp">
+              <in>server-alsasrc-PCMA.c</in>
+            </df>
+            <df name="shapewipe">
+            </df>
+            <df name="spectrum">
+              <in>demo-audiotest.c</in>
+              <in>demo-osssrc.c</in>
+            </df>
+            <df name="v4l2">
+            </df>
+          </df>
+          <df name="files">
+          </df>
+          <df name="icles">
+            <in>v4l2src-test.c</in>
+          </df>
+        </df>
+        <df name="win32">
+          <df name="common">
+            <in>config.h</in>
+          </df>
+          <df name="vs6">
+          </df>
+          <df name="vs7">
+          </df>
+          <df name="vs8">
+          </df>
+        </df>
+        <in>_stdint.h</in>
+      </df>
+      <df name="gst-plugins-ugly">
+        <df name="autom4te.cache">
+        </df>
+        <df name="common">
+          <df name="coverage">
+          </df>
+          <df name="hooks">
+          </df>
+          <df name="m4">
+          </df>
+        </df>
+        <df name="docs">
+          <df name="plugins">
+            <df name="html">
+            </df>
+            <df name="inspect">
+            </df>
+            <df name="tmpl">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+          <df name="random">
+          </df>
+        </df>
+        <df name="ext">
+          <df name="a52dec">
+            <in>gsta52dec.c</in>
+            <in>gsta52dec.h</in>
+          </df>
+          <df name="amrnb">
+            <in>amrnbenc.c</in>
+            <in>amrnbenc.h</in>
+          </df>
+          <df name="amrwbdec">
+          </df>
+          <df name="cdio">
+          </df>
+          <df name="dvdread">
+          </df>
+          <df name="lame">
+          </df>
+          <df name="mad">
+            <in>gstmad.c</in>
+            <in>gstmad.h</in>
+          </df>
+          <df name="mpeg2dec">
+            <in>gstmpeg2dec.c</in>
+            <in>gstmpeg2dec.h</in>
+          </df>
+          <df name="sidplay">
+          </df>
+          <df name="twolame">
+            <in>gsttwolame.c</in>
+            <in>gsttwolame.h</in>
+          </df>
+          <df name="x264">
+          </df>
+        </df>
+        <df name="gst">
+          <df name="asfdemux">
+            <in>gstrtspwms.c</in>
+            <in>gstrtspwms.h</in>
+          </df>
+          <df name="dvdlpcmdec">
+            <in>gstdvdlpcmdec.c</in>
+            <in>gstdvdlpcmdec.h</in>
+          </df>
+          <df name="dvdsub">
+          </df>
+          <df name="iec958">
+            <in>ac3_padder.h</in>
+            <in>ac3iec.c</in>
+            <in>ac3iec.h</in>
+          </df>
+          <df name="mpegaudioparse">
+            <in>gstmpegaudioparse.c</in>
+            <in>gstmpegaudioparse.h</in>
+          </df>
+          <df name="mpegstream">
+          </df>
+          <df name="realmedia">
+            <in>asmrules.c</in>
+            <in>asmrules.h</in>
+            <in>rmdemux.c</in>
+            <in>rmdemux.h</in>
+            <in>rmutils.h</in>
+          </df>
+          <df name="synaesthesia">
+            <in>gstsynaesthesia.c</in>
+            <in>gstsynaesthesia.h</in>
+            <in>synaescope.h</in>
+          </df>
+        </df>
+        <df name="gst-libs">
+          <df name="gst">
+            <in>gettext.h</in>
+            <in>gst-i18n-plugin.h</in>
+          </df>
+        </df>
+        <df name="m4">
+        </df>
+        <df name="pkgconfig">
+        </df>
+        <df name="po">
+        </df>
+        <df name="tests">
+          <df name="check">
+            <df name="elements">
+              <in>xingmux.c</in>
+              <in>xingmux_testdata.h</in>
+            </df>
+            <df name="generic">
+            </df>
+            <df name="pipelines">
+            </df>
+          </df>
+        </df>
+        <df name="win32">
+          <df name="common">
+            <in>config.h</in>
+          </df>
+          <df name="vs6">
+          </df>
+        </df>
+        <in>_stdint.h</in>
+      </df>
+      <df name="gst-plugins-ugly.backup">
+        <df name="autom4te.cache">
+        </df>
+        <df name="common">
+          <df name="coverage">
+          </df>
+          <df name="hooks">
+          </df>
+          <df name="m4">
+          </df>
+        </df>
+        <df name="docs">
+          <df name="plugins">
+            <df name="html">
+            </df>
+            <df name="inspect">
+            </df>
+            <df name="tmpl">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+          <df name="random">
+          </df>
+        </df>
+        <df name="ext">
+          <df name="a52dec">
+          </df>
+          <df name="amrnb">
+            <in>amrnbenc.c</in>
+            <in>amrnbenc.h</in>
+          </df>
+          <df name="amrwbdec">
+          </df>
+          <df name="cdio">
+            <in>gstcdio.h</in>
+            <in>gstcdiocddasrc.c</in>
+            <in>gstcdiocddasrc.h</in>
+          </df>
+          <df name="dvdread">
+          </df>
+          <df name="lame">
+          </df>
+          <df name="mad">
+            <in>gstmad.c</in>
+            <in>gstmad.h</in>
+          </df>
+          <df name="mpeg2dec">
+          </df>
+          <df name="sidplay">
+          </df>
+          <df name="twolame">
+            <in>gsttwolame.c</in>
+            <in>gsttwolame.h</in>
+          </df>
+          <df name="x264">
+          </df>
+        </df>
+        <df name="gst">
+          <df name="asfdemux">
+            <in>asfheaders.c</in>
+            <in>asfheaders.h</in>
+            <in>asfpacket.c</in>
+            <in>asfpacket.h</in>
+            <in>gstasfdemux.h</in>
+          </df>
+          <df name="dvdlpcmdec">
+          </df>
+          <df name="dvdsub">
+          </df>
+          <df name="iec958">
+          </df>
+          <df name="mpegaudioparse">
+          </df>
+          <df name="mpegstream">
+            <in>gstdvddemux.c</in>
+            <in>gstdvddemux.h</in>
+            <in>gstmpegclock.c</in>
+            <in>gstmpegclock.h</in>
+            <in>gstmpegdemux.h</in>
+            <in>gstmpegpacketize.h</in>
+            <in>gstmpegparse.h</in>
+          </df>
+          <df name="realmedia">
+            <in>gstrdtbuffer.h</in>
+            <in>rdtjitterbuffer.h</in>
+            <in>rdtmanager.c</in>
+            <in>rdtmanager.h</in>
+            <in>realhash.c</in>
+            <in>realhash.h</in>
+          </df>
+          <df name="synaesthesia">
+          </df>
+        </df>
+        <df name="gst-libs">
+          <df name="gst">
+            <in>gettext.h</in>
+            <in>gst-i18n-plugin.h</in>
+          </df>
+        </df>
+        <df name="m4">
+        </df>
+        <df name="pkgconfig">
+        </df>
+        <df name="po">
+        </df>
+        <df name="tests">
+          <df name="check">
+            <df name="elements">
+            </df>
+            <df name="generic">
+              <in>states.c</in>
+            </df>
+            <df name="pipelines">
+              <in>lame.c</in>
+            </df>
+          </df>
+        </df>
+        <df name="win32">
+          <df name="common">
+          </df>
+          <df name="vs6">
+          </df>
+        </df>
+        <in>_stdint.h</in>
+        <in>config.h</in>
+      </df>
+      <df name="gst-rtsp-server">
+        <df name="autom4te.cache">
+        </df>
+        <df name="bindings">
+          <df name="python">
+            <df name="codegen">
+            </df>
+          </df>
+          <df name="vala">
+            <df name="packages">
+            </df>
+          </df>
+        </df>
+        <df name="common">
+          <df name="coverage">
+          </df>
+          <df name="hooks">
+          </df>
+          <df name="m4">
+          </df>
+        </df>
+        <df name="docs">
+          <df name="design">
+          </df>
+          <df name="libs">
+            <df name="html">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+        </df>
+        <df name="examples">
+          <in>test-mp4.c</in>
+        </df>
+        <df name="gst">
+          <df name="rtsp-server">
+            <in>rtsp-auth.c</in>
+            <in>rtsp-auth.h</in>
+            <in>rtsp-client.h</in>
+            <in>rtsp-funnel.h</in>
+            <in>rtsp-media-factory-uri.c</in>
+            <in>rtsp-media-factory-uri.h</in>
+            <in>rtsp-media-factory.h</in>
+            <in>rtsp-media-mapping.h</in>
+            <in>rtsp-media.c</in>
+            <in>rtsp-media.h</in>
+            <in>rtsp-server.c</in>
+            <in>rtsp-server.h</in>
+            <in>rtsp-session-pool.h</in>
+            <in>rtsp-session.h</in>
+          </df>
+        </df>
+        <df name="m4">
+        </df>
+        <df name="pkgconfig">
+        </df>
+        <df name="po">
+        </df>
+        <df name="tests">
+        </df>
+        <in>config.h</in>
+      </df>
+      <df name="gst-template">
+        <df name="gst-app">
+          <df name="src">
+            <in>gst-app.h</in>
+            <in>main.c</in>
+            <in>play.c</in>
+            <in>play.h</in>
+          </df>
+        </df>
+        <df name="gst-plugin">
+          <df name="autom4te.cache">
+          </df>
+          <df name="src">
+            <in>gstaudiofilter.c</in>
+            <in>gstmyfilter.c</in>
+            <in>gstmyfilter.h</in>
+            <in>gstplugin.c</in>
+            <in>gstplugin.h</in>
+            <in>gsttransform.c</in>
+            <in>gsttransform.h</in>
+          </df>
+          <df name="tools">
+          </df>
+          <in>config.h</in>
+        </df>
+      </df>
+      <df name="gstreamer">
+        <df name="autom4te.cache">
+        </df>
+        <df name="common">
+          <df name="coverage">
+          </df>
+          <df name="hooks">
+          </df>
+          <df name="m4">
+          </df>
+        </df>
+        <df name="docs">
+          <df name="code-reviews">
+          </df>
+          <df name="design">
+          </df>
+          <df name="faq">
+          </df>
+          <df name="gst">
+            <df name="html">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+          <df name="images">
+          </df>
+          <df name="libs">
+            <df name="html">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+          <df name="manual">
+            <df name="images">
+            </df>
+          </df>
+          <df name="plugins">
+            <df name="html">
+            </df>
+            <df name="inspect">
+            </df>
+            <df name="tmpl">
+            </df>
+            <df name="xml">
+            </df>
+          </df>
+          <df name="pwg">
+          </df>
+          <df name="random">
+            <df name="bbb">
+            </df>
+            <df name="company">
+            </df>
+            <df name="ds">
+            </df>
+            <df name="ensonic">
+            </df>
+            <df name="matth">
+            </df>
+            <df name="old">
+            </df>
+            <df name="omega">
+              <df name="build">
+              </df>
+              <df name="EOS">
+              </df>
+              <df name="sched">
+              </df>
+              <df name="testing">
+              </df>
+            </df>
+            <df name="richardb">
+            </df>
+            <df name="slomo">
+            </df>
+            <df name="testing">
+            </df>
+            <df name="thaytan">
+            </df>
+            <df name="thomasvs">
+            </df>
+            <df name="uraeus">
+            </df>
+            <df name="wingo">
+            </df>
+            <df name="wtay">
+            </df>
+            <df name="zaheerm">
+            </df>
+          </df>
+          <df name="slides">
+          </df>
+          <df name="xsl">
+          </df>
+        </df>
+        <df name="gst">
+          <df name="parse">
+            <in>grammar.tab.h</in>
+            <in>grammar.y</in>
+            <in>parse.l</in>
+            <in>types.h</in>
+          </df>
+          <in>gettext.h</in>
+          <in>glib-compat-private.h</in>
+          <in>glib-compat.h</in>
+          <in>gst-i18n-app.h</in>
+          <in>gst-i18n-lib.h</in>
+          <in>gst.h</in>
+          <in>gst_private.h</in>
+          <in>gstatomicqueue.h</in>
+          <in>gstbin.h</in>
+          <in>gstbuffer.h</in>
+          <in>gstbufferlist.c</in>
+          <in>gstbufferlist.h</in>
+          <in>gstbus.h</in>
+          <in>gstcaps.h</in>
+          <in>gstchildproxy.h</in>
+          <in>gstclock.h</in>
+          <in>gstcompat.h</in>
+          <in>gstconfig.h</in>
+          <in>gstdatetime.h</in>
+          <in>gstdebugutils.h</in>
+          <in>gstelement.h</in>
+          <in>gstelementfactory.h</in>
+          <in>gstenumtypes.h</in>
+          <in>gsterror.h</in>
+          <in>gstevent.h</in>
+          <in>gstformat.h</in>
+          <in>gstghostpad.h</in>
+          <in>gstindex.h</in>
+          <in>gstindexfactory.h</in>
+          <in>gstinfo.h</in>
+          <in>gstinterface.h</in>
+          <in>gstiterator.h</in>
+          <in>gstmacros.h</in>
+          <in>gstmarshal.h</in>
+          <in>gstmessage.h</in>
+          <in>gstminiobject.h</in>
+          <in>gstobject.h</in>
+          <in>gstpad.c</in>
+          <in>gstpad.h</in>
+          <in>gstpadtemplate.h</in>
+          <in>gstparamspecs.h</in>
+          <in>gstparse.c</in>
+          <in>gstparse.h</in>
+          <in>gstpipeline.h</in>
+          <in>gstplugin.h</in>
+          <in>gstpluginfeature.c</in>
+          <in>gstpluginfeature.h</in>
+          <in>gstpoll.c</in>
+          <in>gstpoll.h</in>
+          <in>gstpreset.h</in>
+          <in>gstquark.c</in>
+          <in>gstquark.h</in>
+          <in>gstquery.c</in>
+          <in>gstquery.h</in>
+          <in>gstregistry.h</in>
+          <in>gstregistrybinary.h</in>
+          <in>gstregistrychunks.h</in>
+          <in>gstsegment.h</in>
+          <in>gststructure.h</in>
+          <in>gstsystemclock.h</in>
+          <in>gsttaglist.h</in>
+          <in>gsttagsetter.h</in>
+          <in>gsttask.h</in>
+          <in>gsttaskpool.h</in>
+          <in>gsttrace.h</in>
+          <in>gsttypefind.h</in>
+          <in>gsttypefindfactory.h</in>
+          <in>gsturi.h</in>
+          <in>gstutils.h</in>
+          <in>gstvalue.h</in>
+          <in>gstversion.h</in>
+          <in>gstxml.c</in>
+          <in>gstxml.h</in>
+          <in>math-compat.h</in>
+        </df>
+        <df name="libs">
+          <df name="gst">
+            <df name="base">
+              <in>gstadapter.c</in>
+              <in>gstadapter.h</in>
+              <in>gstbaseparse.h</in>
+              <in>gstbasesink.h</in>
+              <in>gstbasesrc.h</in>
+              <in>gstbasetransform.h</in>
+              <in>gstbitreader.h</in>
+              <in>gstbytereader-docs.h</in>
+              <in>gstbytereader.h</in>
+              <in>gstbytewriter.h</in>
+              <in>gstcollectpads.h</in>
+              <in>gstdataqueue.h</in>
+              <in>gstpushsrc.h</in>
+              <in>gsttypefindhelper.h</in>
+            </df>
+            <df name="check">
+              <df name="libcheck">
+                <in>check.c</in>
+                <in>check.h</in>
+                <in>check_error.c</in>
+                <in>check_error.h</in>
+                <in>check_impl.h</in>
+                <in>check_list.h</in>
+                <in>check_log.c</in>
+                <in>check_log.h</in>
+                <in>check_msg.h</in>
+                <in>check_print.h</in>
+                <in>check_str.h</in>
+              </df>
+              <in>gstbufferstraw.c</in>
+              <in>gstbufferstraw.h</in>
+              <in>gstcheck.h</in>
+              <in>gstconsistencychecker.c</in>
+              <in>gstconsistencychecker.h</in>
+              <in>internal-check.h</in>
+            </df>
+            <df name="controller">
+              <in>gstcontroller.h</in>
+              <in>gstcontrollerprivate.h</in>
+              <in>gstcontrolsource.h</in>
+              <in>gstinterpolationcontrolsource.h</in>
+              <in>gstinterpolationcontrolsourceprivate.h</in>
+              <in>gstlfocontrolsource.h</in>
+              <in>gstlfocontrolsourceprivate.h</in>
+            </df>
+            <df name="dataprotocol">
+              <in>dataprotocol.c</in>
+              <in>dataprotocol.h</in>
+              <in>dp-private.h</in>
+            </df>
+            <df name="helpers">
+            </df>
+            <df name="net">
+              <in>gstnet.h</in>
+              <in>gstnetclientclock.h</in>
+              <in>gstnettimepacket.h</in>
+              <in>gstnettimeprovider.h</in>
+            </df>
+          </df>
+        </df>
+        <df name="m4">
+        </df>
+        <df name="pkgconfig">
+        </df>
+        <df name="plugins">
+          <df name="elements">
+            <in>gstqueue.c</in>
+            <in>gstqueue.h</in>
+          </df>
+          <df name="indexers">
+            <in>gstindexers.h</in>
+            <in>gstmemindex.c</in>
+          </df>
+        </df>
+        <df name="po">
+        </df>
+        <df name="scripts">
+        </df>
+        <df name="tests">
+          <df name="benchmarks">
+            <in>complexity.c</in>
+          </df>
+          <df name="check">
+            <df name="elements">
+              <in>queue2.c</in>
+            </df>
+            <df name="generic">
+            </df>
+            <df name="gst">
+              <in>gstabi.c</in>
+              <in>gstbus.c</in>
+              <in>gstinterface.c</in>
+              <in>gstpipeline.c</in>
+              <in>gsttagsetter.c</in>
+              <in>gstxml.c</in>
+              <in>struct_arm.h</in>
+              <in>struct_hppa.h</in>
+              <in>struct_i386.h</in>
+              <in>struct_sparc.h</in>
+              <in>struct_x86_64.h</in>
+            </df>
+            <df name="libs">
+              <in>gstlibscpp.cc</in>
+              <in>struct_hppa.h</in>
+              <in>struct_i386.h</in>
+              <in>struct_ppc32.h</in>
+              <in>struct_ppc64.h</in>
+              <in>struct_sparc.h</in>
+            </df>
+            <df name="pipelines">
+            </df>
+          </df>
+          <df name="examples">
+            <df name="adapter">
+            </df>
+            <df name="controller">
+            </df>
+            <df name="helloworld">
+            </df>
+            <df name="launch">
+            </df>
+            <df name="manual">
+            </df>
+            <df name="metadata">
+            </df>
+            <df name="queue">
+            </df>
+            <df name="stepping">
+            </df>
+            <df name="streams">
+            </df>
+            <df name="typefind">
+            </df>
+          </df>
+          <df name="misc">
+          </df>
+        </df>
+        <df name="tools">
+          <in>gst-feedback-m.m</in>
+        </df>
+        <df name="win32">
+          <df name="common">
+            <in>config.h</in>
+            <in>dirent.h</in>
+            <in>gstconfig.h</in>
+            <in>gstenumtypes.c</in>
+            <in>gstenumtypes.h</in>
+            <in>gstversion.h</in>
+          </df>
+          <df name="vs6">
+          </df>
+          <df name="vs7">
+          </df>
+          <df name="vs8">
+          </df>
+        </df>
+        <in>_stdint.h</in>
+        <in>config.h</in>
+        <in>stamp.h</in>
+      </df>
+      <df name="orc">
+        <df name="autom4te.cache">
+        </df>
+        <df name="doc">
+          <df name="random">
+          </df>
+        </df>
+        <df name="examples">
+          <in>example1.c</in>
+          <in>example3.c</in>
+          <in>example3orc.h</in>
+        </df>
+        <df name="m4">
+        </df>
+        <df name="orc">
+          <in>opcodes.h</in>
+          <in>orc-stdint.h</in>
+          <in>orc.c</in>
+          <in>orc.h</in>
+          <in>orcarm.h</in>
+          <in>orcbytecode.h</in>
+          <in>orccode.c</in>
+          <in>orccpuinsn.h</in>
+          <in>orcdebug.h</in>
+          <in>orcemulateopcodes.h</in>
+          <in>orcexecutor.c</in>
+          <in>orcfunctions.h</in>
+          <in>orcmmx.c</in>
+          <in>orcmmx.h</in>
+          <in>orcneon.h</in>
+          <in>orconce.h</in>
+          <in>orcopcodes.c</in>
+          <in>orcparse.h</in>
+          <in>orcpowerpc.c</in>
+          <in>orcpowerpc.h</in>
+          <in>orcprogram-arm.c</in>
+          <in>orcprogram-c.c</in>
+          <in>orcprogram-sse.c</in>
+          <in>orcprogram.h</in>
+          <in>orcrule.c</in>
+          <in>orcrules-arm.c</in>
+          <in>orcsse.c</in>
+          <in>orcsse.h</in>
+          <in>orcutils.h</in>
+          <in>orcx86.c</in>
+          <in>orcx86.h</in>
+          <in>orcx86insn.h</in>
+        </df>
+        <df name="orc-test">
+          <in>orcarray.h</in>
+          <in>orcprofile.h</in>
+          <in>orcrandom.h</in>
+          <in>orctest.h</in>
+        </df>
+        <df name="testsuite">
+          <df name="benchmorc">
+            <in>benchmorc.c</in>
+          </df>
+          <df name="compatibility">
+          </df>
+          <df name="orcc">
+            <in>test2.c</in>
+            <in>testorc.h</in>
+          </df>
+          <in>bytecode_parse.c</in>
+          <in>compile_opcodes_sys_neon.c</in>
+          <in>exec_opcodes_float.c</in>
+          <in>exec_opcodes_sys.c</in>
+          <in>generate_xml_table.c</in>
+          <in>perf_opcodes_sys.c</in>
+        </df>
+        <df name="tools">
+          <in>orcc.c</in>
+        </df>
+        <in>config.h</in>
       </df>
     </df>
     <logicalFolder name="ExternalFiles"
